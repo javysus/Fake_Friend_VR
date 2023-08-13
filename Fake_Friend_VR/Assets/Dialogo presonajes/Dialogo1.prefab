@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2982488626455578535
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2982488626455578533}
+  - component: {fileID: 2982488626455578534}
+  m_Layer: 0
+  m_Name: Dialogo1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2982488626455578533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2982488626455578535}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.2619135, y: 1.6310217, z: 2.4818103}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2982488626455578534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2982488626455578535}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbbb16c7336cab742a58571519336d54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CentralDeDialogo: {fileID: 0}
+  Panel:
+  - {fileID: 0}
+  - {fileID: 0}
+  TextoDialogo:
+  - {fileID: 0}
+  - {fileID: 0}
+  SiguienteObjc:
+  - {fileID: 0}
+  - {fileID: 0}
+  OrdenDeDialogo: 000000000100000000000000
+  EscalaNormal: {x: 1, y: 1, z: 1}
+  NuevaEscala: {x: 0, y: 0, z: 0}
+  EsperaDeEscala: 1
+  VelocidadDeCierre: 15
+  VelocidadTextos: 0.01
+  DesactivarDialogo: 0.5
+  ListaDialogos:
+  - holaaaa
+  - wenaaa
+  - de perroo
