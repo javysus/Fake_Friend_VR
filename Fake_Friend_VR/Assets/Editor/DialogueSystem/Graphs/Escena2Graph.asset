@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: Escena2Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Escena2
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 2b3298b4-dee6-41fe-8245-3a53031ba3ae
+    <Name>k__BackingField: CalleDisco
+    <Position>k__BackingField: {x: 46, y: 229}
+  - <ID>k__BackingField: 0e78df87-1a76-4139-bb51-ed9fd6bf93cf
+    <Name>k__BackingField: DialogueGroup
+    <Position>k__BackingField: {x: 51, y: 618}
+  - <ID>k__BackingField: d590255b-f9c6-4211-97f2-3964be585972
+    <Name>k__BackingField: InvitacionRave
+    <Position>k__BackingField: {x: -389, y: 1321}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 51d418e4-29fe-45df-becb-7a55a9b4c86f
+    <Name>k__BackingField: Luis11
+    <Text>k__BackingField: "\xA1Fue la mejor noche!"
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: c3f966dc-bf8e-4d0f-b9d2-cfa7e22e248c
+    <GroupID>k__BackingField: 2b3298b4-dee6-41fe-8245-3a53031ba3ae
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 450, y: 288}
+  - <ID>k__BackingField: 4da66134-594b-4c09-9788-25ee474952c8
+    <Name>k__BackingField: "Fe\xF1a11"
+    <Text>k__BackingField: "\xBFQu\xE9 onda?"
+    <Actor>k__BackingField: "Fe\xF1a"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 51d418e4-29fe-45df-becb-7a55a9b4c86f
+    <GroupID>k__BackingField: 2b3298b4-dee6-41fe-8245-3a53031ba3ae
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 71, y: 288}
+  - <ID>k__BackingField: 6b39f88b-2e4e-459a-b584-a8e76324f88a
+    <Name>k__BackingField: Prueba1
+    <Text>k__BackingField: "\xBFQuieres seguir carreteando?"
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "S\xED!!"
+      <NodeID>k__BackingField: cbb953a8-f654-43de-864d-7834750cb1be
+    - <Text>k__BackingField: No
+      <NodeID>k__BackingField: d02fb493-158e-4791-9fe1-c0c2ad451bd6
+    <GroupID>k__BackingField: 0e78df87-1a76-4139-bb51-ed9fd6bf93cf
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 76, y: 745}
+  - <ID>k__BackingField: d02fb493-158e-4791-9fe1-c0c2ad451bd6
+    <Name>k__BackingField: Prueba2
+    <Text>k__BackingField: Chao no vimo
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 0e78df87-1a76-4139-bb51-ed9fd6bf93cf
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 454, y: 677}
+  - <ID>k__BackingField: cbb953a8-f654-43de-864d-7834750cb1be
+    <Name>k__BackingField: Prueba3
+    <Text>k__BackingField: Vamos!!
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 0e78df87-1a76-4139-bb51-ed9fd6bf93cf
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 454, y: 993}
+  - <ID>k__BackingField: c3f966dc-bf8e-4d0f-b9d2-cfa7e22e248c
+    <Name>k__BackingField: "Fe\xF1a22"
+    <Text>k__BackingField: Confirmo
+    <Actor>k__BackingField: "Fe\xF1a"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 2b3298b4-dee6-41fe-8245-3a53031ba3ae
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 764, y: 288}
+  - <ID>k__BackingField: 289ca385-5957-4220-84a3-40c10002bb83
+    <Name>k__BackingField: "Fe\xF1a0"
+    <Text>k__BackingField: "\xBFQu\xE9 onda? \xA1Ya es de d\xEDa! Se me pas\xF3 volando
+      la fiesta"
+    <Actor>k__BackingField: "Fe\xF1a"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 9ddad6ac-6a78-49a5-8240-b4daced9d1fa
+    <GroupID>k__BackingField: d590255b-f9c6-4211-97f2-3964be585972
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -364, y: 1405}
+  - <ID>k__BackingField: 9ddad6ac-6a78-49a5-8240-b4daced9d1fa
+    <Name>k__BackingField: Luis0
+    <Text>k__BackingField: "\xA1Fue la mejor noche! \xBFQu\xE9 opinas Renato?"
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Fue la noche m\xE1s feliz de mi vida\u2026 creo que
+        nunca me hab\xEDa sentido como ayer"
+      <NodeID>k__BackingField: 0cd37171-5193-4720-870d-faff4baf40a8
+    - <Text>k__BackingField: "Me sent\xED tan feliz que pens\xE9 que estaba en otro
+        mundo"
+      <NodeID>k__BackingField: 0cd37171-5193-4720-870d-faff4baf40a8
+    <GroupID>k__BackingField: d590255b-f9c6-4211-97f2-3964be585972
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 90, y: 1380}
+  - <ID>k__BackingField: f08461fd-bf8c-46c8-9776-e90e8d48238c
+    <Name>k__BackingField: "Fe\xF1a1"
+    <Text>k__BackingField: 'Oigan ,me esta bajando el efecto pero quiero seguir carreteando
+
+'
+    <Actor>k__BackingField: "Fe\xF1a"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 2edd5f97-42bd-40fa-8944-ccbd0aa5cb66
+    <GroupID>k__BackingField: d590255b-f9c6-4211-97f2-3964be585972
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 563, y: 1760}
+  - <ID>k__BackingField: 2edd5f97-42bd-40fa-8944-ccbd0aa5cb66
+    <Name>k__BackingField: Luis3
+    <Text>k__BackingField: "Adivina amiga, tengo entradas para una rave hoy, \xA1vamos!\r"
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: f17d38bb-94a9-4508-892f-f0123dcccc8a
+    <GroupID>k__BackingField: d590255b-f9c6-4211-97f2-3964be585972
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1038, y: 1760}
+  - <ID>k__BackingField: 0cd37171-5193-4720-870d-faff4baf40a8
+    <Name>k__BackingField: Luis1
+    <Text>k__BackingField: "Exacto, esta pastilla es m\xE1gica, lo que si quer\xEDa
+      darte algunas advertencias para la pr\xF3xima"
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 39239478-fa17-47e2-ae88-5e1cfdebc56a
+    <GroupID>k__BackingField: d590255b-f9c6-4211-97f2-3964be585972
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 783, y: 1429}
+  - <ID>k__BackingField: f17d38bb-94a9-4508-892f-f0123dcccc8a
+    <Name>k__BackingField: Luis4
+    <Text>k__BackingField: "Renato, \xBFapa\xF1as? A ti te gusta Zett y viene!"
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 8333ffb2-81ec-43b9-9951-6b60181ff55e
+    <GroupID>k__BackingField: d590255b-f9c6-4211-97f2-3964be585972
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1460, y: 1760}
+  - <ID>k__BackingField: 8333ffb2-81ec-43b9-9951-6b60181ff55e
+    <Name>k__BackingField: "Fe\xF1a2"
+    <Text>k__BackingField: "Siii vamos!!! Necesitamos disfrutar de m\xE1s m\xFAsica"
+    <Actor>k__BackingField: "Fe\xF1a"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 553e69a9-09c5-4c15-ab10-a52997790c03
+    <GroupID>k__BackingField: d590255b-f9c6-4211-97f2-3964be585972
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1809, y: 1760}
+  - <ID>k__BackingField: 553e69a9-09c5-4c15-ab10-a52997790c03
+    <Name>k__BackingField: Luis5
+    <Text>k__BackingField: "Adem\xE1s la Jo me cont\xF3 que igual va"
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "\xBFEn serio? \xA1Entonces voy!"
+      <NodeID>k__BackingField: 5905897d-0c6b-406e-9f98-2c7070efd6d9
+    <GroupID>k__BackingField: d590255b-f9c6-4211-97f2-3964be585972
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2216, y: 1735}
+  - <ID>k__BackingField: 5905897d-0c6b-406e-9f98-2c7070efd6d9
+    <Name>k__BackingField: "Fe\xF1a3"
+    <Text>k__BackingField: "As\xED se habla amigo!"
+    <Actor>k__BackingField: "Fe\xF1a"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: d590255b-f9c6-4211-97f2-3964be585972
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2634, y: 1760}
+  - <ID>k__BackingField: 39239478-fa17-47e2-ae88-5e1cfdebc56a
+    <Name>k__BackingField: Luis2
+    <Text>k__BackingField: Debes mantenerte hidratado
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: f08461fd-bf8c-46c8-9776-e90e8d48238c
+    <GroupID>k__BackingField: d590255b-f9c6-4211-97f2-3964be585972
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1460, y: 1452}
+  <OldGroupNames>k__BackingField:
+  - CalleDisco
+  - DialogueGroup
+  - InvitacionRave
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: CalleDisco
+      Value:
+      - Luis11
+      - "Fe\xF1a11"
+      - "Fe\xF1a22"
+    - Key: DialogueGroup
+      Value:
+      - Prueba1
+      - Prueba2
+      - Prueba3
+    - Key: InvitacionRave
+      Value:
+      - "Fe\xF1a0"
+      - Luis0
+      - "Fe\xF1a1"
+      - Luis3
+      - Luis1
+      - Luis4
+      - "Fe\xF1a2"
+      - Luis5
+      - "Fe\xF1a3"
+      - Luis2

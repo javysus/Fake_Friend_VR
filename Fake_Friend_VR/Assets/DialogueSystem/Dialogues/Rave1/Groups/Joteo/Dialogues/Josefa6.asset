@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
+  m_Name: Josefa6
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: Josefa6
+  <Text>k__BackingField: " Jaja, no s\xE9 si nos conocemos tanto, pero te cuento
+    un poco de mi: estuve en el grange school, soy cheerleader y quiero irme de intercambio
+    el otro a\xF1o a Alemania"
+  <Actor>k__BackingField: Josefa
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: " \xBFCheerleader? suena genial, a mi me gusta dibujar  "
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: cbe54a41e22eb2c49a33a47b926de4d3, type: 2}
+  - <Text>k__BackingField: " \xBFCheerleader? suena genial, yo solo toco la guitarra"
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: cff35ab8849614747981eb7d76a39b5b, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0

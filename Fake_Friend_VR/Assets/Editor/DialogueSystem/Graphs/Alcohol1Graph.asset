@@ -1,0 +1,700 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: Alcohol1Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Alcohol1
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 53aeb2d4-50bf-4cb4-876c-d732c4d935cd
+    <Name>k__BackingField: EntradaDepa
+    <Position>k__BackingField: {x: 100, y: -283}
+  - <ID>k__BackingField: 01993bee-d2b2-421b-b555-01c9dceb6d30
+    <Name>k__BackingField: PresentacionAmigos
+    <Position>k__BackingField: {x: 268, y: 563}
+  - <ID>k__BackingField: 24a7c972-1f98-475d-aec3-976572473c6c
+    <Name>k__BackingField: DialogoConi
+    <Position>k__BackingField: {x: 20, y: 1049}
+  - <ID>k__BackingField: 52775941-9cef-4e1f-9ab4-0a329aa29494
+    <Name>k__BackingField: DialogoNico
+    <Position>k__BackingField: {x: 1304, y: 1132}
+  - <ID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <Name>k__BackingField: CulturaChupistica
+    <Position>k__BackingField: {x: 37, y: 1730.0001}
+  - <ID>k__BackingField: 3a55a734-ab6b-45eb-b89d-33d308233395
+    <Name>k__BackingField: DialogoDiego
+    <Position>k__BackingField: {x: 37, y: 3947}
+  - <ID>k__BackingField: d9ece43f-25c1-4db4-a68f-6c166c9842d4
+    <Name>k__BackingField: DialogoFrancisco
+    <Position>k__BackingField: {x: 669, y: 3965}
+  - <ID>k__BackingField: 128ed2f8-85bc-4aba-8e57-c73812599550
+    <Name>k__BackingField: DecisionBebida
+    <Position>k__BackingField: {x: -54, y: 4412}
+  - <ID>k__BackingField: b1df3a86-c31e-4527-b6ec-ea886b045fc6
+    <Name>k__BackingField: DecisionAlcohol
+    <Position>k__BackingField: {x: -202, y: 4813}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 541ad34d-a335-43ac-a1b9-dc90122cdb09
+    <Name>k__BackingField: Nicolas1
+    <Text>k__BackingField: "\xA1Hola amiga! \xBFC\xF3mo est\xE1s?"
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Bien jaja, \xBFy t\xFA?"
+      <NodeID>k__BackingField: 5a6d6e87-6d96-4329-8ce9-8d4d4eca1cf9
+    - <Text>k__BackingField: Bien
+      <NodeID>k__BackingField: d8c86cce-b2ce-43bb-9013-34dbc163e833
+    <GroupID>k__BackingField: 53aeb2d4-50bf-4cb4-876c-d732c4d935cd
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 125, y: 184}
+  - <ID>k__BackingField: d8c86cce-b2ce-43bb-9013-34dbc163e833
+    <Name>k__BackingField: Nicolas3
+    <Text>k__BackingField: "Qu\xE9 bueno que viniste amiga, los chiquillos tambi\xE9n
+      llegaron hace poco con el alcohol y est\xE1n preparando tragos."
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 94e00970-7c4a-4350-a749-26cd5a8edffd
+    <GroupID>k__BackingField: 53aeb2d4-50bf-4cb4-876c-d732c4d935cd
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 637, y: 218}
+  - <ID>k__BackingField: 5a6d6e87-6d96-4329-8ce9-8d4d4eca1cf9
+    <Name>k__BackingField: Nicolas2
+    <Text>k__BackingField: "Aqu\xED bien igual, relajandonos luego de una semana
+      intensa de pruebas."
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: d8c86cce-b2ce-43bb-9013-34dbc163e833
+    <GroupID>k__BackingField: 53aeb2d4-50bf-4cb4-876c-d732c4d935cd
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 927, y: -224}
+  - <ID>k__BackingField: 94e00970-7c4a-4350-a749-26cd5a8edffd
+    <Name>k__BackingField: Nicolas4
+    <Text>k__BackingField: "Te digo donde esta el ba\xF1o y vamos con ellos"
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 28a89c29-707c-4163-9d26-308602fac3ff
+    <GroupID>k__BackingField: 53aeb2d4-50bf-4cb4-876c-d732c4d935cd
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1581, y: 218}
+  - <ID>k__BackingField: 28a89c29-707c-4163-9d26-308602fac3ff
+    <Name>k__BackingField: NicolasBano
+    <Text>k__BackingField: Siguiendo el pasillo a tu derecha llegas
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 9e890a41-196a-4cc7-b249-11bae2bbf064
+    <GroupID>k__BackingField: 53aeb2d4-50bf-4cb4-876c-d732c4d935cd
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2119, y: 218}
+  - <ID>k__BackingField: 9e890a41-196a-4cc7-b249-11bae2bbf064
+    <Name>k__BackingField: Nicolas6
+    <Text>k__BackingField: Ahora vamos donde los chiquillos
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 53aeb2d4-50bf-4cb4-876c-d732c4d935cd
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2547, y: 218}
+  - <ID>k__BackingField: 8b2d4b3e-3249-48ef-8465-421e0aea11e8
+    <Name>k__BackingField: Coni1
+    <Text>k__BackingField: "\xA1HOLA AMIGA! No pens\xE9 que vendr\xEDas"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 7489cbea-b506-449f-8d84-62b9b27da53c
+    <GroupID>k__BackingField: 01993bee-d2b2-421b-b555-01c9dceb6d30
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 293, y: 660}
+  - <ID>k__BackingField: daea5cb3-c9d2-4650-b910-f01662a06f66
+    <Name>k__BackingField: Francisco1
+    <Text>k__BackingField: Hola Cami, yo soy Francisco
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 06ec4cfe-68cb-4075-97ce-3f47c0902e42
+    <GroupID>k__BackingField: 01993bee-d2b2-421b-b555-01c9dceb6d30
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1073, y: 670}
+  - <ID>k__BackingField: 7489cbea-b506-449f-8d84-62b9b27da53c
+    <Name>k__BackingField: Diego1
+    <Text>k__BackingField: "Hola, soy Diego, compa\xF1ero del Nico de Arquitectura"
+    <Actor>k__BackingField: Diego
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Hola jaja, yo igual
+      <NodeID>k__BackingField: daea5cb3-c9d2-4650-b910-f01662a06f66
+    <GroupID>k__BackingField: 01993bee-d2b2-421b-b555-01c9dceb6d30
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 653, y: 660}
+  - <ID>k__BackingField: 06ec4cfe-68cb-4075-97ce-3f47c0902e42
+    <Name>k__BackingField: Nicolas7
+    <Text>k__BackingField: "Por aqu\xED hay cosas para picar y m\xE1s rato pediremos
+      pizza, \xBFte sirvo algo?"
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Bebida
+      <NodeID>k__BackingField: 0696b739-be14-4997-a9bd-ccf22157a819
+    - <Text>k__BackingField: Jugo de naranja
+      <NodeID>k__BackingField: 0696b739-be14-4997-a9bd-ccf22157a819
+    <GroupID>k__BackingField: 01993bee-d2b2-421b-b555-01c9dceb6d30
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1398, y: 647}
+  - <ID>k__BackingField: 0696b739-be14-4997-a9bd-ccf22157a819
+    <Name>k__BackingField: Diego2
+    <Text>k__BackingField: "\xBFEso nom\xE1s? Aprovecha que estamos preparando tragos"
+    <Actor>k__BackingField: Diego
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: f5259575-0b84-46b5-82e0-68582f737d8d
+    <GroupID>k__BackingField: 01993bee-d2b2-421b-b555-01c9dceb6d30
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1978, y: 647}
+  - <ID>k__BackingField: f5259575-0b84-46b5-82e0-68582f737d8d
+    <Name>k__BackingField: Coni2
+    <Text>k__BackingField: Dale Cami, estamos en confianza, te puedo servir algo
+      sueva como jugo de naranja con vodka
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Mmm ya, bueno
+      <NodeID>k__BackingField: f7bb707a-d45e-4195-b5c9-527f2fd9233d
+    <GroupID>k__BackingField: 01993bee-d2b2-421b-b555-01c9dceb6d30
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2416, y: 622}
+  - <ID>k__BackingField: f7bb707a-d45e-4195-b5c9-527f2fd9233d
+    <Name>k__BackingField: Coni3
+    <Text>k__BackingField: Super
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 01993bee-d2b2-421b-b555-01c9dceb6d30
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3043, y: 647}
+  - <ID>k__BackingField: d9f918f0-f2e9-4f4d-8a19-3f7f15cbc3f5
+    <Name>k__BackingField: Coni3
+    <Text>k__BackingField: "\xBFQu\xE9 tal tu trago?"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Est\xE1 bueno"
+      <NodeID>k__BackingField: b1f37427-9e27-4eba-8fc1-0ef5c9857ae4
+    - <Text>k__BackingField: Un poco fuerte
+      <NodeID>k__BackingField: b1f37427-9e27-4eba-8fc1-0ef5c9857ae4
+    <GroupID>k__BackingField: 24a7c972-1f98-475d-aec3-976572473c6c
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 45, y: 1191}
+  - <ID>k__BackingField: b1f37427-9e27-4eba-8fc1-0ef5c9857ae4
+    <Name>k__BackingField: Coni4
+    <Text>k__BackingField: "\xBFHab\xEDas tomado antes?"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Relativamente poco durante el colegio
+      <NodeID>k__BackingField: 6bfab3df-8f78-4813-999a-cd495ec0f71b
+    - <Text>k__BackingField: "S\xED, obvio"
+      <NodeID>k__BackingField: 54d12d03-0229-4f37-824c-773611dce0e4
+    <GroupID>k__BackingField: 24a7c972-1f98-475d-aec3-976572473c6c
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 395, y: 1191}
+  - <ID>k__BackingField: 6bfab3df-8f78-4813-999a-cd495ec0f71b
+    <Name>k__BackingField: Coni5
+    <Text>k__BackingField: Ohhh jajaja entonces es tu momento de lanzarte
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 24a7c972-1f98-475d-aec3-976572473c6c
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 874, y: 1108}
+  - <ID>k__BackingField: 54d12d03-0229-4f37-824c-773611dce0e4
+    <Name>k__BackingField: Coni6
+    <Text>k__BackingField: Uhh entonces la pasaremos bien
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 24a7c972-1f98-475d-aec3-976572473c6c
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 886, y: 1412}
+  - <ID>k__BackingField: 6432419e-93ad-40e6-8f9b-00f8e2138eac
+    <Name>k__BackingField: Nicolas8
+    <Text>k__BackingField: "\xBFQu\xE9 tal te ha ido en la U?"
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Bien, aunque media estresada
+      <NodeID>k__BackingField: e008b2ee-9fbc-42f2-b586-824bad1358c4
+    - <Text>k__BackingField: Masomenos, Mate me ha costado
+      <NodeID>k__BackingField: e008b2ee-9fbc-42f2-b586-824bad1358c4
+    <GroupID>k__BackingField: 52775941-9cef-4e1f-9ab4-0a329aa29494
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1329, y: 1191}
+  - <ID>k__BackingField: e008b2ee-9fbc-42f2-b586-824bad1358c4
+    <Name>k__BackingField: Nicolas9
+    <Text>k__BackingField: Hoy relajate para que retomemos fuerzas
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 52775941-9cef-4e1f-9ab4-0a329aa29494
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1779, y: 1209}
+  - <ID>k__BackingField: b231b4c1-4cb3-4aab-89bd-7152180f31ee
+    <Name>k__BackingField: Francisco1
+    <Text>k__BackingField: "Nombres de personajes protag\xF3nicos que son animales"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: d875959c-4667-4dca-b054-bb9fffc5581a
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 62, y: 2242}
+  - <ID>k__BackingField: 98e89b54-60d1-4db4-92bb-888a27de9c79
+    <Name>k__BackingField: Coni2
+    <Text>k__BackingField: Jaja,debes tomar amiga
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 8484367d-4794-4e0d-a414-9975fddb7f96
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1495, y: 2547}
+  - <ID>k__BackingField: f5a7cc0d-e75c-4775-b829-c72aab0074aa
+    <Name>k__BackingField: Nico1
+    <Text>k__BackingField: "Nooo pero pikachu es un pokemon, no un animal\r"
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 98e89b54-60d1-4db4-92bb-888a27de9c79
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1532, y: 2223}
+  - <ID>k__BackingField: e2f7b45b-1517-4c2c-917b-65c4cf9297ea
+    <Name>k__BackingField: Nico2
+    <Text>k__BackingField: "Noooo te demoraste demasiado, tienes que tomar jajaja\r"
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 8484367d-4794-4e0d-a414-9975fddb7f96
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1002, y: 2662}
+  - <ID>k__BackingField: e8b8f38f-d553-4293-9f57-a2152e849a04
+    <Name>k__BackingField: Diego1
+    <Text>k__BackingField: Stuart Little
+    <Actor>k__BackingField: Diego
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 64b6e8a1-5a78-45dc-8f6d-a152e8d97bce
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1404, y: 1897}
+  - <ID>k__BackingField: 64b6e8a1-5a78-45dc-8f6d-a152e8d97bce
+    <Name>k__BackingField: Francisco3
+    <Text>k__BackingField: Snorlax
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: c815b6a9-e605-488a-8b75-70d61a5a6c52
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1722, y: 1849}
+  - <ID>k__BackingField: c815b6a9-e605-488a-8b75-70d61a5a6c52
+    <Name>k__BackingField: Nico3
+    <Text>k__BackingField: "Nooo pero Snorlax es un pokemon, no un animal\r"
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 8484367d-4794-4e0d-a414-9975fddb7f96
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2008, y: 1789}
+  - <ID>k__BackingField: 8484367d-4794-4e0d-a414-9975fddb7f96
+    <Name>k__BackingField: Francisco4
+    <Text>k__BackingField: "Ya ahora sigue historia, armar una historia una palabra
+      por persona, pero ojo que uno tiene que repetir las palabras anteriores y agregar
+      una nueva, empiezo yo: Hab\xEDa"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 2ec91226-399a-4018-b6b3-88b32a6c08c6
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2057, y: 2256}
+  - <ID>k__BackingField: 2ec91226-399a-4018-b6b3-88b32a6c08c6
+    <Name>k__BackingField: Francisco5
+    <Text>k__BackingField: "Empiezo yo: Hab\xEDa"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 40906486-e6e2-4c4e-9587-8bb505b999f1
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2759, y: 2242}
+  - <ID>k__BackingField: 40906486-e6e2-4c4e-9587-8bb505b999f1
+    <Name>k__BackingField: Nico4
+    <Text>k__BackingField: "Hab\xEDa una"
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 1528be45-a11f-463c-a42d-546825b91a52
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2189, y: 2590}
+  - <ID>k__BackingField: 1528be45-a11f-463c-a42d-546825b91a52
+    <Name>k__BackingField: Coni3
+    <Text>k__BackingField: "Hab\xEDa una vez"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Hab\xEDa una vez un perro"
+      <NodeID>k__BackingField: 83135773-e1c0-4cda-846e-25b7a5f0cc84
+    - <Text>k__BackingField: "Hab\xEDa una vez una"
+      <NodeID>k__BackingField: 0817f570-af0e-4d5e-a5c0-5812b4fda182
+    - <Text>k__BackingField: Una
+      <NodeID>k__BackingField: 83135773-e1c0-4cda-846e-25b7a5f0cc84
+    - <Text>k__BackingField: Sin Tiempo
+      <NodeID>k__BackingField: 9b363bb6-1fd3-44e1-9f2f-b0e9bc6edbf4
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2503, y: 2565}
+  - <ID>k__BackingField: 9b363bb6-1fd3-44e1-9f2f-b0e9bc6edbf4
+    <Name>k__BackingField: Coni4
+    <Text>k__BackingField: "Se acab\xF3 el tiempoooo, vas a tener que tomar jajajaja\r"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 5f7e5fab-6b89-4378-bbd2-900145cfa88d
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2964, y: 2883}
+  - <ID>k__BackingField: 83135773-e1c0-4cda-846e-25b7a5f0cc84
+    <Name>k__BackingField: Coni5
+    <Text>k__BackingField: Te equivocaste Cami, debes tomar
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 5f7e5fab-6b89-4378-bbd2-900145cfa88d
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2985, y: 2547}
+  - <ID>k__BackingField: 0817f570-af0e-4d5e-a5c0-5812b4fda182
+    <Name>k__BackingField: Diego3
+    <Text>k__BackingField: "Hab\xEDa una vez una vaca"
+    <Actor>k__BackingField: Diego
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: cdca7807-7523-4a0c-a00b-012f9a538f3b
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2524, y: 2967}
+  - <ID>k__BackingField: cdca7807-7523-4a0c-a00b-012f9a538f3b
+    <Name>k__BackingField: Francisco6
+    <Text>k__BackingField: "Hab\xEDa una vez una vaca roja"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 82f41fa6-d109-417e-acbc-74aeffc02636
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2836, y: 3243}
+  - <ID>k__BackingField: 82f41fa6-d109-417e-acbc-74aeffc02636
+    <Name>k__BackingField: Coni6
+    <Text>k__BackingField: "Hab\xEDa una vez una vaca roja que se"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 18e44f8a-660f-408d-bb56-2adf4137d5ea
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3154, y: 3243}
+  - <ID>k__BackingField: 18e44f8a-660f-408d-bb56-2adf4137d5ea
+    <Name>k__BackingField: Diego4
+    <Text>k__BackingField: "\xA1Perdiste Coni!"
+    <Actor>k__BackingField: Diego
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 5f7e5fab-6b89-4378-bbd2-900145cfa88d
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3510, y: 3243}
+  - <ID>k__BackingField: 5f7e5fab-6b89-4378-bbd2-900145cfa88d
+    <Name>k__BackingField: Francisco7
+    <Text>k__BackingField: Ya ahora viene que las mujeres toman 3, les toca
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: d28e5fbc-9948-4282-bedd-3e5e8bdbd44a
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3703, y: 2745}
+  - <ID>k__BackingField: d28e5fbc-9948-4282-bedd-3e5e8bdbd44a
+    <Name>k__BackingField: Nico5
+    <Text>k__BackingField: oigan les tinca pidamos pizza ahora?
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: f47a0e55-b25a-43cb-b907-93fb4e0ff4fb
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4233, y: 2777}
+  - <ID>k__BackingField: f47a0e55-b25a-43cb-b907-93fb4e0ff4fb
+    <Name>k__BackingField: Diego5
+    <Text>k__BackingField: "S\xED Nico, me est\xE1 dando hambre"
+    <Actor>k__BackingField: Diego
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4143, y: 3105}
+  - <ID>k__BackingField: 463a6fef-70c6-429d-bbd3-268af73ce8c7
+    <Name>k__BackingField: Francisco1
+    <Text>k__BackingField: JAJAJAJA
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: d9ece43f-25c1-4db4-a68f-6c166c9842d4
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1053, y: 4024}
+  - <ID>k__BackingField: da9ea82b-201f-43ad-98bd-3c627bbc97ee
+    <Name>k__BackingField: Diego1
+    <Text>k__BackingField: JAJAJAJ
+    <Actor>k__BackingField: Diego
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 3a55a734-ab6b-45eb-b89d-33d308233395
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 387, y: 4031}
+  - <ID>k__BackingField: 399a674e-c950-4345-964b-a192c4ca7af6
+    <Name>k__BackingField: Diego0
+    <Text>k__BackingField: "\xA1Qu\xE9 bueno est\xE1 el carrete!"
+    <Actor>k__BackingField: Diego
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Sii, muy bueno
+      <NodeID>k__BackingField: da9ea82b-201f-43ad-98bd-3c627bbc97ee
+    <GroupID>k__BackingField: 3a55a734-ab6b-45eb-b89d-33d308233395
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 62, y: 4006}
+  - <ID>k__BackingField: 24628774-0fef-4949-9e16-244821dab665
+    <Name>k__BackingField: Francisco0
+    <Text>k__BackingField: Creo que tome mucho jaja
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Creo que yo igual
+      <NodeID>k__BackingField: 463a6fef-70c6-429d-bbd3-268af73ce8c7
+    <GroupID>k__BackingField: d9ece43f-25c1-4db4-a68f-6c166c9842d4
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 694, y: 4044}
+  - <ID>k__BackingField: 21a3a85f-2bd4-4f8d-b410-1d1af00a65d7
+    <Name>k__BackingField: Nico1
+    <Text>k__BackingField: "\xBFQu\xE9 ocurre?"
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Yo creo que es hora de irme
+      <NodeID>k__BackingField: d7fd1a63-a2fb-45ef-acb8-cf28e19b3345
+    <GroupID>k__BackingField: 128ed2f8-85bc-4aba-8e57-c73812599550
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -29, y: 4482}
+  - <ID>k__BackingField: d7fd1a63-a2fb-45ef-acb8-cf28e19b3345
+    <Name>k__BackingField: Nico2
+    <Text>k__BackingField: Tan pronto?
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "S\xED, es tarde, me vendr\xE1n a buscar"
+      <NodeID>k__BackingField: 7ae1545e-1f40-4a53-b83e-cab489cbeb8e
+    <GroupID>k__BackingField: 128ed2f8-85bc-4aba-8e57-c73812599550
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 372, y: 4482}
+  - <ID>k__BackingField: 7ae1545e-1f40-4a53-b83e-cab489cbeb8e
+    <Name>k__BackingField: Francisco1
+    <Text>k__BackingField: "QU\xC9 FOME Y LA MOTIVACI\xD3N?"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 4c2282ee-294a-4f76-8811-c4cdc7de5f9d
+    <GroupID>k__BackingField: 128ed2f8-85bc-4aba-8e57-c73812599550
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 797, y: 4482}
+  - <ID>k__BackingField: 4c2282ee-294a-4f76-8811-c4cdc7de5f9d
+    <Name>k__BackingField: Coni1
+    <Text>k__BackingField: NOS VEMOS AMIGA
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 128ed2f8-85bc-4aba-8e57-c73812599550
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1092, y: 4471}
+  - <ID>k__BackingField: 583c24cc-5173-41fb-a413-17b606eea9a4
+    <Name>k__BackingField: Nico1
+    <Text>k__BackingField: Tomaste demasiado Cami
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: b020e7d0-2662-4dbf-8dc8-f5eda80bde41
+    <GroupID>k__BackingField: b1df3a86-c31e-4527-b6ec-ea886b045fc6
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 248, y: 4883}
+  - <ID>k__BackingField: 9a6480a5-d804-494a-b25f-f22930c3a302
+    <Name>k__BackingField: Coni1
+    <Text>k__BackingField: "Pucha amiga, tranquila, \xBFTe pedimos un auto a tu casa?
+      ? "
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 583c24cc-5173-41fb-a413-17b606eea9a4
+    <GroupID>k__BackingField: b1df3a86-c31e-4527-b6ec-ea886b045fc6
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -177, y: 4872}
+  - <ID>k__BackingField: b020e7d0-2662-4dbf-8dc8-f5eda80bde41
+    <Name>k__BackingField: Coni2
+    <Text>k__BackingField: "\xBFO le puedes pedir a alguien que te venga a buscar?"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "No, un auto\u2026 No quiero que me vean as\xED"
+      <NodeID>k__BackingField: 9fd8876a-9f81-4048-9d76-6edececba140
+    <GroupID>k__BackingField: b1df3a86-c31e-4527-b6ec-ea886b045fc6
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 546, y: 4872}
+  - <ID>k__BackingField: 9fd8876a-9f81-4048-9d76-6edececba140
+    <Name>k__BackingField: Nico2
+    <Text>k__BackingField: Si quieres quedarte no hay problema
+    <Actor>k__BackingField: Nicolas
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: b1df3a86-c31e-4527-b6ec-ea886b045fc6
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1033, y: 4883}
+  - <ID>k__BackingField: 8c24bcf6-bd55-4fb2-9485-b9993b754e1f
+    <Name>k__BackingField: Coni1
+    <Text>k__BackingField: Simba
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Mickey Mouse
+      <NodeID>k__BackingField: e8b8f38f-d553-4293-9f57-a2152e849a04
+    - <Text>k__BackingField: Pikachu
+      <NodeID>k__BackingField: f5a7cc0d-e75c-4775-b829-c72aab0074aa
+    - <Text>k__BackingField: Clifford
+      <NodeID>k__BackingField: e8b8f38f-d553-4293-9f57-a2152e849a04
+    - <Text>k__BackingField: Sin Tiempo
+      <NodeID>k__BackingField: e2f7b45b-1517-4c2c-917b-65c4cf9297ea
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1167, y: 2256}
+  - <ID>k__BackingField: df616123-4142-4df5-b5db-1775390e752a
+    <Name>k__BackingField: FranciscoCultra
+    <Text>k__BackingField: Empieza Coni
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 8c24bcf6-bd55-4fb2-9485-b9993b754e1f
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 706, y: 2535}
+  - <ID>k__BackingField: d875959c-4667-4dca-b054-bb9fffc5581a
+    <Name>k__BackingField: Francisco2
+    <Text>k__BackingField: "Entonces para contextualizar cada uno en orden debe ir
+      dando nombres y quien repita uno ya dicho, se equivoque o se demore m\xE1s
+      de 5 segundos pierde y debe tomar"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: df616123-4142-4df5-b5db-1775390e752a
+    <GroupID>k__BackingField: 6a307601-54c2-4572-8c08-d29efe6c2701
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 465, y: 2256}
+  <OldGroupNames>k__BackingField:
+  - EntradaDepa
+  - PresentacionAmigos
+  - DialogoConi
+  - DialogoNico
+  - CulturaChupistica
+  - DialogoDiego
+  - DialogoFrancisco
+  - DecisionBebida
+  - DecisionAlcohol
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: EntradaDepa
+      Value:
+      - Nicolas1
+      - Nicolas3
+      - Nicolas2
+      - Nicolas4
+      - NicolasBano
+      - Nicolas6
+    - Key: PresentacionAmigos
+      Value:
+      - Coni1
+      - Francisco1
+      - Diego1
+      - Nicolas7
+      - Diego2
+      - Coni2
+      - Coni3
+    - Key: DialogoConi
+      Value:
+      - Coni3
+      - Coni4
+      - Coni5
+      - Coni6
+    - Key: DialogoNico
+      Value:
+      - Nicolas8
+      - Nicolas9
+    - Key: CulturaChupistica
+      Value:
+      - Francisco1
+      - Coni2
+      - Nico1
+      - Nico2
+      - Diego1
+      - Francisco3
+      - Nico3
+      - Francisco4
+      - Francisco5
+      - Nico4
+      - Coni3
+      - Coni4
+      - Coni5
+      - Diego3
+      - Francisco6
+      - Coni6
+      - Diego4
+      - Francisco7
+      - Nico5
+      - Diego5
+      - Coni1
+      - FranciscoCultra
+      - Francisco2
+    - Key: DialogoFrancisco
+      Value:
+      - Francisco1
+      - Francisco0
+    - Key: DialogoDiego
+      Value:
+      - Diego1
+      - Diego0
+    - Key: DecisionBebida
+      Value:
+      - Nico1
+      - Nico2
+      - Francisco1
+      - Coni1
+    - Key: DecisionAlcohol
+      Value:
+      - Nico1
+      - Coni1
+      - Coni2
+      - Nico2

@@ -7,7 +7,7 @@ public class ShakeableTransform : MonoBehaviour
     [SerializeField]
     float frequency = 1;
     [SerializeField]
-    Vector3 maximumAngularShake = Vector3.one * 4;
+    public Vector3 maximumAngularShake = Vector3.one * 4;
     // Start is called before the first frame update
     void Start()
     {

@@ -1,0 +1,256 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: Rave1Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Rave1
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 40686d28-bf3f-450b-9ee8-68e4cb6001c8
+    <Name>k__BackingField: TomarPastilla
+    <Position>k__BackingField: {x: 184.8, y: 43.199993}
+  - <ID>k__BackingField: 195bc08c-fd04-41b2-aae9-0b15a574f390
+    <Name>k__BackingField: Baile
+    <Position>k__BackingField: {x: 726.4, y: 31.999996}
+  - <ID>k__BackingField: fe116771-7c5b-455f-93e4-12f90668cde7
+    <Name>k__BackingField: IrPorAgua
+    <Position>k__BackingField: {x: 110.399994, y: 810.4}
+  - <ID>k__BackingField: 040848d1-471e-4bc7-9166-3974e2c5c846
+    <Name>k__BackingField: Joteo
+    <Position>k__BackingField: {x: 968.80005, y: 961.60004}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: ceb1c31e-9ffa-4e4c-8b5c-27136f56602c
+    <Name>k__BackingField: Luis1
+    <Text>k__BackingField: Toma amigo, dale con otra
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 40686d28-bf3f-450b-9ee8-68e4cb6001c8
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 209.6, y: 102.399994}
+  - <ID>k__BackingField: 11996f9f-a938-4cbf-a3c5-bb48c7e7df38
+    <Name>k__BackingField: Luis2
+    <Text>k__BackingField: "\xA1TENGO TANTAS GANAS DE BAILAR!"
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: b34f2d0d-d0f5-4530-a6b4-1cc4e3f97231
+    <GroupID>k__BackingField: 195bc08c-fd04-41b2-aae9-0b15a574f390
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 751.2, y: 116}
+  - <ID>k__BackingField: b34f2d0d-d0f5-4530-a6b4-1cc4e3f97231
+    <Name>k__BackingField: Fena1
+    <Text>k__BackingField: BAILEMOS AMIGOOOOOS SON LOS MEJORES
+    <Actor>k__BackingField: "Fe\xF1a"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: d0c83414-1cca-4262-b599-5e466cff32c4
+    <GroupID>k__BackingField: 195bc08c-fd04-41b2-aae9-0b15a574f390
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1089.6, y: 114.399994}
+  - <ID>k__BackingField: e35f037c-324d-4ecb-a01c-88e88c0a1188
+    <Name>k__BackingField: Luis3
+    <Text>k__BackingField: "Amigo, vamos a comprar ag\xFCita"
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Ok, me dio sed
+      <NodeID>k__BackingField: d625f663-fd46-4923-8e2d-e1a3719b29b9
+    <GroupID>k__BackingField: fe116771-7c5b-455f-93e4-12f90668cde7
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 135.2, y: 869.60004}
+  - <ID>k__BackingField: d0c83414-1cca-4262-b599-5e466cff32c4
+    <Name>k__BackingField: Luis3
+    <Text>k__BackingField: "\xA1Sigue mis pasos! Golpea las esferas rojas con tus
+      manos"
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Estoy listo
+      <NodeID>k__BackingField: f8689cb4-17b4-4f84-9f2d-0c8ae5a39dac
+    - <Text>k__BackingField: No entiendo
+      <NodeID>k__BackingField: ef55ed82-ac79-4a1e-9cca-8178d29d3b1a
+    <GroupID>k__BackingField: 195bc08c-fd04-41b2-aae9-0b15a574f390
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1492, y: 91.2}
+  - <ID>k__BackingField: ef55ed82-ac79-4a1e-9cca-8178d29d3b1a
+    <Name>k__BackingField: Luis4
+    <Text>k__BackingField: Arriba a tu izquierda y derecha hay esferas rojas que
+      debes tocar para seguir mis movimientos
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: f8689cb4-17b4-4f84-9f2d-0c8ae5a39dac
+    <GroupID>k__BackingField: 195bc08c-fd04-41b2-aae9-0b15a574f390
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1151.2, y: 481.6}
+  - <ID>k__BackingField: f8689cb4-17b4-4f84-9f2d-0c8ae5a39dac
+    <Name>k__BackingField: Luis5
+    <Text>k__BackingField: "\xA1Vamos!"
+    <Actor>k__BackingField: Luis
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 195bc08c-fd04-41b2-aae9-0b15a574f390
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1933.6, y: 450.40002}
+  - <ID>k__BackingField: d625f663-fd46-4923-8e2d-e1a3719b29b9
+    <Name>k__BackingField: Fena2
+    <Text>k__BackingField: "Por all\xE1 hay un men vendiendo "
+    <Actor>k__BackingField: "Fe\xF1a"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: fe116771-7c5b-455f-93e4-12f90668cde7
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 477.6, y: 883.2}
+  - <ID>k__BackingField: bf66a4f8-a7d7-4c5c-9339-912784bdf892
+    <Name>k__BackingField: Josefa1
+    <Text>k__BackingField: Holis
+    <Actor>k__BackingField: Josefa
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Hola Jo, qu\xE9 bueno verte aqu\xED, est\xE1s muy linda
+        hoy"
+      <NodeID>k__BackingField: 00a05e52-e821-472f-959f-b2e94276f3f3
+    <GroupID>k__BackingField: 040848d1-471e-4bc7-9166-3974e2c5c846
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 993.6, y: 1156.7999}
+  - <ID>k__BackingField: 2f71f83a-6992-495a-9a2d-d3fb6ccf6fd4
+    <Name>k__BackingField: Josefa3
+    <Text>k__BackingField: 'Jaja gracias, oye estamos estudiando lo mismo no?
+
+'
+    <Actor>k__BackingField: Josefa
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "S\xED, ingenieria comercial"
+      <NodeID>k__BackingField: b493373d-8fa3-4ad4-8cce-737355fbe0ab
+    <GroupID>k__BackingField: 040848d1-471e-4bc7-9166-3974e2c5c846
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2218.4, y: 1156.7999}
+  - <ID>k__BackingField: 00a05e52-e821-472f-959f-b2e94276f3f3
+    <Name>k__BackingField: Josefa2
+    <Text>k__BackingField: "Jajaja gracias, hace tiempo vengo a este tipo de eventos
+      y me gusta asistir con distintos outfits originales\r"
+    <Actor>k__BackingField: Josefa
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Sin duda tienes un estilo \xFAnico! "
+      <NodeID>k__BackingField: 2f71f83a-6992-495a-9a2d-d3fb6ccf6fd4
+    <GroupID>k__BackingField: 040848d1-471e-4bc7-9166-3974e2c5c846
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1528, y: 1156.7999}
+  - <ID>k__BackingField: b493373d-8fa3-4ad4-8cce-737355fbe0ab
+    <Name>k__BackingField: Josefa4
+    <Text>k__BackingField: 'Ahh si es que te he visto muy poco '
+    <Actor>k__BackingField: Josefa
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Probablemente ahora me veas m\xE1s"
+      <NodeID>k__BackingField: 411fe904-48c4-415f-8116-21f82105bd74
+    <GroupID>k__BackingField: 040848d1-471e-4bc7-9166-3974e2c5c846
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2620, y: 1156.7999}
+  - <ID>k__BackingField: 411fe904-48c4-415f-8116-21f82105bd74
+    <Name>k__BackingField: Josefa5
+    <Text>k__BackingField: "\xBFAh s\xED? \xBFPor qu\xE9?"
+    <Actor>k__BackingField: Josefa
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Porque te encuentro una persona muy interesante
+      <NodeID>k__BackingField: 3a286be1-942b-4ccc-a45e-981ab9374073
+    <GroupID>k__BackingField: 040848d1-471e-4bc7-9166-3974e2c5c846
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3071.2, y: 1156.7999}
+  - <ID>k__BackingField: 3a286be1-942b-4ccc-a45e-981ab9374073
+    <Name>k__BackingField: Josefa6
+    <Text>k__BackingField: " Jaja, no s\xE9 si nos conocemos tanto, pero te cuento
+      un poco de mi: estuve en el grange school, soy cheerleader y quiero irme de
+      intercambio el otro a\xF1o a Alemania"
+    <Actor>k__BackingField: Josefa
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: " \xBFCheerleader? suena genial, a mi me gusta dibujar  "
+      <NodeID>k__BackingField: e24637b7-3ddd-4906-81ea-672a21539274
+    - <Text>k__BackingField: " \xBFCheerleader? suena genial, yo solo toco la guitarra"
+      <NodeID>k__BackingField: 42d94a62-0669-45a3-a44b-99389612cf8c
+    <GroupID>k__BackingField: 040848d1-471e-4bc7-9166-3974e2c5c846
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3613.6, y: 1156.7999}
+  - <ID>k__BackingField: 42d94a62-0669-45a3-a44b-99389612cf8c
+    <Name>k__BackingField: Josefa8
+    <Text>k__BackingField: "Ya para la proxima me tocas una canci\xF3n jaja\r"
+    <Actor>k__BackingField: Josefa
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: bef2c0e2-4724-4c52-9307-8af537d0f869
+    <GroupID>k__BackingField: 040848d1-471e-4bc7-9166-3974e2c5c846
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4293.6, y: 1346.3999}
+  - <ID>k__BackingField: e24637b7-3ddd-4906-81ea-672a21539274
+    <Name>k__BackingField: Josefa7
+    <Text>k__BackingField: "Me podr\xEDas dibujar alg\xFAn d\xEDa jaja"
+    <Actor>k__BackingField: Josefa
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: bef2c0e2-4724-4c52-9307-8af537d0f869
+    <GroupID>k__BackingField: 040848d1-471e-4bc7-9166-3974e2c5c846
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4343.2, y: 1020.00006}
+  - <ID>k__BackingField: bef2c0e2-4724-4c52-9307-8af537d0f869
+    <Name>k__BackingField: Josefa9
+    <Text>k__BackingField: Oh vaya
+    <Actor>k__BackingField: Josefa
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "\xBFQuieres tener una cita conmigo el pr\xF3ximo fin
+        de semana? "
+      <NodeID>k__BackingField: 05935f4c-9e7a-48ec-94a9-979b93e57c19
+    <GroupID>k__BackingField: 040848d1-471e-4bc7-9166-3974e2c5c846
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 4697.6, y: 1176}
+  - <ID>k__BackingField: 05935f4c-9e7a-48ec-94a9-979b93e57c19
+    <Name>k__BackingField: Josefa10
+    <Text>k__BackingField: "Creo que s\xED puedo, te confirmo por mensaje"
+    <Actor>k__BackingField: Josefa
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 040848d1-471e-4bc7-9166-3974e2c5c846
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 5304, y: 1210.3999}
+  <OldGroupNames>k__BackingField:
+  - TomarPastilla
+  - Baile
+  - IrPorAgua
+  - Joteo
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: TomarPastilla
+      Value:
+      - Luis1
+    - Key: Baile
+      Value:
+      - Luis2
+      - Fena1
+      - Luis3
+      - Luis4
+      - Luis5
+    - Key: IrPorAgua
+      Value:
+      - Luis3
+      - Fena2
+    - Key: Joteo
+      Value:
+      - Josefa1
+      - Josefa3
+      - Josefa2
+      - Josefa4
+      - Josefa5
+      - Josefa6
+      - Josefa8
+      - Josefa7
+      - Josefa9
+      - Josefa10

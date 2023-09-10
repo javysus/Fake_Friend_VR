@@ -6,8 +6,17 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Create_with_VR_Starter_Scene.unity
-    guid: afdcb113ffd5a4353ad88f0dd03743af
+    path: Assets/Scenes/Night_club.unity
+    guid: 16d71e78d5a57ad40928728ff3265f3e
+  - enabled: 1
+    path: Assets/Scenes/InvitacionRave.unity
+    guid: 338c7964c95621e4ab79e2da6af51eb5
+  - enabled: 1
+    path: Assets/Scenes/Rave_nacho.unity
+    guid: d5656f803298d904aac3ecbe024f752d
+  - enabled: 1
+    path: "Assets/Scenes/Habitaci\xF3n.unity"
+    guid: bb6a039ddb409194abfa86a9facf380a
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 8fccb80e6c9a84389a75f2c1ed4d786d, type: 2}
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 4c5497a5c6cf4b043830f8bce1618d46, type: 2}
