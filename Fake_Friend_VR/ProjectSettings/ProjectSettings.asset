@@ -252,7 +252,7 @@ PlayerSettings:
   AndroidKeystoreName: 
   AndroidKeyaliasName: 
   AndroidBuildApkPerCpuArchitecture: 0
-  AndroidTVCompatibility: 0
+  AndroidTVCompatibility: 1
   AndroidIsGame: 1
   AndroidEnableTango: 0
   androidEnableBanner: 1
@@ -683,7 +683,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     1: READY_PLAYER_ME;UNITY_POST_PROCESSING_STACK_V2;GLTFAST;DREAMTECK_SPLINES
     4: GLTFAST
-    7: UNITY_POST_PROCESSING_STACK_V2;GLTFAST
+    7: UNITY_POST_PROCESSING_STACK_V2;GLTFAST;DREAMTECK_SPLINES
     13: UNITY_POST_PROCESSING_STACK_V2;GLTFAST
     14: UNITY_POST_PROCESSING_STACK_V2;GLTFAST
     19: UNITY_POST_PROCESSING_STACK_V2
