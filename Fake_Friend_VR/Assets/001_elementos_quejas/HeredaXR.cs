@@ -13,11 +13,17 @@ public class HeredaXR : ActionBasedContinuousMoveProvider
     //--------------
     public Animator animator;
     public bool dormir = true;
+    public bool ducharse = true;
     public GameObject panelCama;
+    public GameObject panelDucha;
     public GameObject blackScreen;
     public GameObject camara_efectos;
     private AudioSource audioSource;
+    public AudioSource DuchaAudio;
+    public ParticleSystem VaporDucha;
 
+    //Activar componente de conversa comedor luego de ducharse
+    public GameObject DialogueManagerComedor;
     void Start()
     {
         
@@ -42,6 +48,7 @@ public class HeredaXR : ActionBasedContinuousMoveProvider
         Debug.Log("Esperando un momento...");
         //frozenPosition = transform.position;
         blackScreen.SetActive(true);
+        audioSource.Play();
         ChangeMoveSpeed(0.0f); //congelar movimiento
         dormir=true;
         // Esperamos durante 2 segundos
@@ -52,9 +59,36 @@ public class HeredaXR : ActionBasedContinuousMoveProvider
         blackScreen.SetActive(false);
         ChangeMoveSpeed(1.0f);
         camara_efectos.GetComponent<Volume>().enabled = true;
-        audioSource.Play();
+        audioSource.Stop();
 
-        
+
+    }
+
+    private IEnumerator TomarDucha()
+    {
+        Debug.Log("Esperando un momento...");
+        //frozenPosition = transform.position;
+        DuchaAudio.Play();
+        blackScreen.SetActive(true);
+        ChangeMoveSpeed(0.0f); //congelar movimiento
+        ducharse = true;
+        // Esperamos durante 2 segundos
+        yield return new WaitForSeconds(5.0f);
+        VaporDucha.Play();
+
+        Debug.Log("Espera finalizada. Haciendo algo después del tiempo de espera.");
+
+        DuchaAudio.Stop();
+        blackScreen.SetActive(false);
+        ChangeMoveSpeed(1.8f);
+
+        yield return new WaitForSeconds(7.0f);
+        Debug.Log("Espera finalizada. Haciendo algo después del tiempo de espera para terminar el vapor.");
+        VaporDucha.Stop();
+        DialogueManagerComedor.SetActive(true);
+
+
+
     }
 
 
@@ -67,6 +101,14 @@ public class HeredaXR : ActionBasedContinuousMoveProvider
             //StartCoroutine(WaitAndDoSomething());
 
         }
+
+        else if (other.CompareTag("Ducha") && ducharse == false)
+        {
+            Debug.Log("colision con ducha");
+            //panelDucha.SetActive(true);
+            //StartCoroutine(WaitAndDoSomething());
+
+        }
     }
 
     private void OnTriggerExit(Collider other)
@@ -75,11 +117,23 @@ public class HeredaXR : ActionBasedContinuousMoveProvider
         {
             panelCama.SetActive(false);
         }
+
+        else if (other.CompareTag("Ducha"))
+        {
+            //panelDucha.SetActive(false);
+        }
     }
 
     public void Dormir()
     {
         panelCama.SetActive(false);
         StartCoroutine(WaitAndDoSomething());
+    }
+
+    public void Ducharse()
+    {
+        panelDucha.SetActive(false);
+        StartCoroutine(TomarDucha());
+        
     }
 }
