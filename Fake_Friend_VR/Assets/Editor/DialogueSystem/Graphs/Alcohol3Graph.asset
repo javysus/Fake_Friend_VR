@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: Alcohol3Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Alcohol3
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <Name>k__BackingField: Restobar
+    <Position>k__BackingField: {x: 104.80002, y: 98.4}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 0b69ee0d-217d-4a6f-a388-e9cbc0d56be5
+    <Name>k__BackingField: Fran1
+    <Text>k__BackingField: "\xA1Estuvo buena la junta de la semana pasada!"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: e519d13b-a4a9-4205-a787-c5a2e14f7c7b
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 129.6, y: 170.4}
+  - <ID>k__BackingField: e519d13b-a4a9-4205-a787-c5a2e14f7c7b
+    <Name>k__BackingField: Nico1
+    <Text>k__BackingField: "\xBFDe verdad? tu te quisiste tirar por el balc\xF3n"
+    <Actor>k__BackingField: Nico
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: c1f45d23-d460-4325-b788-174f3991d0a9
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 482.4, y: 180}
+  - <ID>k__BackingField: c1f45d23-d460-4325-b788-174f3991d0a9
+    <Name>k__BackingField: Fran2
+    <Text>k__BackingField: Es que estaba prendidisimo jajaja
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: e0d7b299-44e0-4740-8c7f-35ebe3c8535e
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 824, y: 180}
+  - <ID>k__BackingField: e0d7b299-44e0-4740-8c7f-35ebe3c8535e
+    <Name>k__BackingField: Coni1
+    <Text>k__BackingField: "Cami, \xBFc\xF3mo te sentiste al d\xEDa siguiente?"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Con un poco de dolor de cabeza
+      <NodeID>k__BackingField: 32d1dc22-3194-4337-a1bf-505a99c76fb8
+    - <Text>k__BackingField: Con un poco de dolor de estomago
+      <NodeID>k__BackingField: 32d1dc22-3194-4337-a1bf-505a99c76fb8
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1139.2, y: 156.8}
+  - <ID>k__BackingField: 32d1dc22-3194-4337-a1bf-505a99c76fb8
+    <Name>k__BackingField: Coni2
+    <Text>k__BackingField: Jajaja sii suele pasar
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1579.2, y: 194.4}
+  <OldGroupNames>k__BackingField:
+  - Restobar
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: Restobar
+      Value:
+      - Fran1
+      - Nico1
+      - Fran2
+      - Coni1
+      - Coni2
