@@ -296,8 +296,9 @@ namespace DS
             {
                 //GameObject optionText = options[i].transform.Find("Text").gameObject;
                 //optionText.GetComponent<UnityEngine.UI.Text>().text = currentDialogue.Choices[i].Text;
-                options[i].SetActive(false);
+                
                 options[i].LeanScale(Vector3.zero, 0.5f).setEaseInOutExpo();
+                options[i].SetActive(false);
             }
 
             DisplayMessage();

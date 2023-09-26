@@ -12,7 +12,7 @@ namespace DS
         public GameObject dialogueBoxMama;
         public GameObject silla;
         public MeshCollider sillaCollider;
-
+        public GameObject piezaCollider;
         public GameObject Oscar;
         public GameObject Mama;
         public GameObject Cami;
@@ -163,7 +163,19 @@ namespace DS
             {
                 Debug.Log("Conversation ended");
                 isActive = false;
-                //Termina esta interaccion, desactivar componente
+                //Termina esta interaccion
+
+                //Parar a Cami
+                Cami.transform.position = new Vector3(-2.53800011f, 0.949000001f, 16.2880001f);
+                CamiAnimator.SetTrigger("idle");
+
+                //Activar collider de silla
+                sillaCollider.enabled = true;
+
+                //Activar collider para pieza
+                piezaCollider.SetActive(true);
+
+                //Desactivar componente
                 this.enabled = false;
 
             }

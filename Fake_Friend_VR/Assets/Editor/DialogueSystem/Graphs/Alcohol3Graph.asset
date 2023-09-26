@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: Alcohol3Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Alcohol3
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <Name>k__BackingField: Restobar
+    <Position>k__BackingField: {x: 104.80029, y: 98.40002}
+  - <ID>k__BackingField: 0666e9c6-a3a3-4aa2-8371-ccd91cc36b69
+    <Name>k__BackingField: Pelea
+    <Position>k__BackingField: {x: 1770.3999, y: 2503.2}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 0b69ee0d-217d-4a6f-a388-e9cbc0d56be5
+    <Name>k__BackingField: Fran1
+    <Text>k__BackingField: "\xA1Estuvo buena la junta de la semana pasada!"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: e519d13b-a4a9-4205-a787-c5a2e14f7c7b
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 129.6, y: 170.4}
+  - <ID>k__BackingField: e519d13b-a4a9-4205-a787-c5a2e14f7c7b
+    <Name>k__BackingField: Nico1
+    <Text>k__BackingField: "\xBFDe verdad? tu te quisiste tirar por el balc\xF3n"
+    <Actor>k__BackingField: Nico
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: c1f45d23-d460-4325-b788-174f3991d0a9
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 482.4, y: 180}
+  - <ID>k__BackingField: c1f45d23-d460-4325-b788-174f3991d0a9
+    <Name>k__BackingField: Fran2
+    <Text>k__BackingField: Es que estaba prendidisimo jajaja
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: e0d7b299-44e0-4740-8c7f-35ebe3c8535e
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 824, y: 180}
+  - <ID>k__BackingField: e0d7b299-44e0-4740-8c7f-35ebe3c8535e
+    <Name>k__BackingField: Coni1
+    <Text>k__BackingField: "Cami, \xBFc\xF3mo te sentiste al d\xEDa siguiente?"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Con un poco de dolor de cabeza
+      <NodeID>k__BackingField: 32d1dc22-3194-4337-a1bf-505a99c76fb8
+    - <Text>k__BackingField: Con un poco de dolor de estomago
+      <NodeID>k__BackingField: 32d1dc22-3194-4337-a1bf-505a99c76fb8
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1139.2, y: 156.8}
+  - <ID>k__BackingField: 32d1dc22-3194-4337-a1bf-505a99c76fb8
+    <Name>k__BackingField: Coni2
+    <Text>k__BackingField: Jajaja sii suele pasar
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: cd30eb50-390c-4b96-9590-34a609e4294f
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1579.2, y: 194.4}
+  - <ID>k__BackingField: cd30eb50-390c-4b96-9590-34a609e4294f
+    <Name>k__BackingField: Mesera1
+    <Text>k__BackingField: "\xA1Hola! Soy Josefa y hoy tomar\xE9 su pedido"
+    <Actor>k__BackingField: Mesera
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 3f1f88c8-2a40-4b02-b01e-3e8dcf15c8e7
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 284.8, y: 590.4}
+  - <ID>k__BackingField: 3f1f88c8-2a40-4b02-b01e-3e8dcf15c8e7
+    <Name>k__BackingField: Mesera2
+    <Text>k__BackingField: "\xBFListos para pedir?"
+    <Actor>k__BackingField: Mesera
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 31cc9222-2dab-4a88-8c37-7b0a34eef4ce
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 846.4, y: 590.4}
+  - <ID>k__BackingField: 31cc9222-2dab-4a88-8c37-7b0a34eef4ce
+    <Name>k__BackingField: Coni3
+    <Text>k__BackingField: Me da un margarita
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: c76b9b3c-7acc-4295-8816-809c5ae404f2
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1190.4, y: 590.4}
+  - <ID>k__BackingField: c76b9b3c-7acc-4295-8816-809c5ae404f2
+    <Name>k__BackingField: Fran3
+    <Text>k__BackingField: Yo un Moscow Mule
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 5fe52114-f201-48c4-8c8b-a505ea5c5ac3
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1498.4, y: 590.4}
+  - <ID>k__BackingField: 5fe52114-f201-48c4-8c8b-a505ea5c5ac3
+    <Name>k__BackingField: Nico4
+    <Text>k__BackingField: "Yo un Gin Rickey, \xBFy t\xFA amiga?"
+    <Actor>k__BackingField: Nico
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Vodka naranja
+      <NodeID>k__BackingField: 3bc60eca-8b78-4f0a-958f-98f01de69147
+    - <Text>k__BackingField: Laguna Azul
+      <NodeID>k__BackingField: 3bc60eca-8b78-4f0a-958f-98f01de69147
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1786.4, y: 567.2}
+  - <ID>k__BackingField: 3bc60eca-8b78-4f0a-958f-98f01de69147
+    <Name>k__BackingField: Nico3
+    <Text>k__BackingField: Para comer una tabla de sushi
+    <Actor>k__BackingField: Nico
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 3efa1403-475b-4786-8038-271f94b46f64
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1786.4, y: 948.8}
+  - <ID>k__BackingField: 3efa1403-475b-4786-8038-271f94b46f64
+    <Name>k__BackingField: Mesera3
+    <Text>k__BackingField: Muy bien, ya traigo sus cosas
+    <Actor>k__BackingField: Mesera
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 8e3c2c7d-84a0-4709-b2da-b383742a8034
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2071.2, y: 948.8}
+  - <ID>k__BackingField: 8e3c2c7d-84a0-4709-b2da-b383742a8034
+    <Name>k__BackingField: Mesera4
+    <Text>k__BackingField: "Aqu\xED est\xE1n chicos, disfruten"
+    <Actor>k__BackingField: Mesera
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 55a5bb85-2a0f-4c22-b4c2-c3a94b185b19
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2365.6, y: 948.8}
+  - <ID>k__BackingField: 55a5bb85-2a0f-4c22-b4c2-c3a94b185b19
+    <Name>k__BackingField: Nico5
+    <Text>k__BackingField: "\xA1Gracias!"
+    <Actor>k__BackingField: Nico
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: f325309b-d4a5-478b-8075-f8479a2ef4d4
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2646.4, y: 948.8}
+  - <ID>k__BackingField: f325309b-d4a5-478b-8075-f8479a2ef4d4
+    <Name>k__BackingField: Fran5
+    <Text>k__BackingField: "\xBFC\xF3mo les fue esta semana en la U?\r"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: dbb8bce8-ddc3-4fc2-8f01-39ac6645b3cc
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2939.2, y: 930.4}
+  - <ID>k__BackingField: dbb8bce8-ddc3-4fc2-8f01-39ac6645b3cc
+    <Name>k__BackingField: Coni4
+    <Text>k__BackingField: " Bien, tuve un 55 en un certamen!!! De milagro\r"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 521ecfe3-a152-4c11-b8d4-92f6f80c9728
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3247.2, y: 930.4}
+  - <ID>k__BackingField: 521ecfe3-a152-4c11-b8d4-92f6f80c9728
+    <Name>k__BackingField: Fran6
+    <Text>k__BackingField: "Jaja, yo tuve un 65\r"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 87d4c24d-6f1b-4d75-adb9-bff2a5a7f8da
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3606.4, y: 931.2}
+  - <ID>k__BackingField: 87d4c24d-6f1b-4d75-adb9-bff2a5a7f8da
+    <Name>k__BackingField: Nico7
+    <Text>k__BackingField: "Yo estoy por echarme un ramo, as\xED que aqu\xED pasando
+      las penas "
+    <Actor>k__BackingField: Nico
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: ' A mi me ha ido bien, tuve un 80 en Mate 1 '
+      <NodeID>k__BackingField: e85ca253-7969-43f8-bf3f-3e8a64a31c18
+    - <Text>k__BackingField: "A mi me ha ido bien, tuve un 90 en Intro a la F\xEDsica"
+      <NodeID>k__BackingField: e85ca253-7969-43f8-bf3f-3e8a64a31c18
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3901.6, y: 908}
+  - <ID>k__BackingField: 0e6f7523-f015-45b8-9620-9512f14544f8
+    <Name>k__BackingField: Coni6
+    <Text>k__BackingField: "Igual estoy un poco triste, siento que \xFAltimamente
+      me ha ido mal en la Universidad y mis padres cada vez discuten m\xE1s\u2026"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: b68ca2f0-4cf7-4bf9-890a-8c58268c2fa9
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4032.8, y: 1289.6}
+  - <ID>k__BackingField: e85ca253-7969-43f8-bf3f-3e8a64a31c18
+    <Name>k__BackingField: Coni5
+    <Text>k__BackingField: "\xA1\xA1\xA1Qu\xE9 seca!!!"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 0e6f7523-f015-45b8-9620-9512f14544f8
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3627.2, y: 1289.6}
+  - <ID>k__BackingField: b68ca2f0-4cf7-4bf9-890a-8c58268c2fa9
+    <Name>k__BackingField: Nico8
+    <Text>k__BackingField: "Pucha Coni, es normal que el primer a\xF1o cueste m\xE1s
+      debido al brusco cambio entre el colegio y la universidad\u2026"
+    <Actor>k__BackingField: Nico
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: " Mi situaci\xF3n familiar tambi\xE9n es complicada\u2026
+        Mis padres se divorciar\xE1n, mi pap\xE1 se fue de la casa "
+      <NodeID>k__BackingField: 6a1cf92a-4f46-46e9-ada9-980aa81f1adb
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 3607.2, y: 1629.6}
+  - <ID>k__BackingField: 6a1cf92a-4f46-46e9-ada9-980aa81f1adb
+    <Name>k__BackingField: Coni7
+    <Text>k__BackingField: "\xBFPor qu\xE9 se divorcian?"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Mi mam\xE1 descubri\xF3 a mi padre siendo infiel, tambi\xE9n
+        discut\xEDan demasiado hace un tiempo"
+      <NodeID>k__BackingField: 876069d8-50f9-42e6-b2e8-800aabc26a10
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 4404.8, y: 1644}
+  - <ID>k__BackingField: 876069d8-50f9-42e6-b2e8-800aabc26a10
+    <Name>k__BackingField: Coni8
+    <Text>k__BackingField: "En mi caso creo que hay infidelidad por parte de mi madre\u2026
+      \xBFPor qu\xE9 ocurre esto en las familias?"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 9bec3d3e-3141-46f6-950d-d5cca4fe62dc
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4411.2, y: 1960.7999}
+  - <ID>k__BackingField: 0d7dca85-928a-48a8-9287-f159d0f56a93
+    <Name>k__BackingField: Mojojojo1
+    <Text>k__BackingField: "\xA1Oye! \xBFQu\xE9 te pasa?\xA1Ten m\xE1s cuidado!"
+    <Actor>k__BackingField: Loca
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: " \xBFQu\xE9? \xA1T\xFA me empujaste!"
+      <NodeID>k__BackingField: 48bd303c-bd23-4185-9eeb-7b7cdd20e70c
+    - <Text>k__BackingField: "Disculpa, no fue mi intenci\xF3n"
+      <NodeID>k__BackingField: d0ef8b61-37c0-4e0f-b01e-6d2046a8aa2e
+    <GroupID>k__BackingField: 0666e9c6-a3a3-4aa2-8371-ccd91cc36b69
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1795.2, y: 2604}
+  - <ID>k__BackingField: 48bd303c-bd23-4185-9eeb-7b7cdd20e70c
+    <Name>k__BackingField: Mojojojo2
+    <Text>k__BackingField: "Qu\xE9 est\xFApida eres ni\xF1a"
+    <Actor>k__BackingField: Loca
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Pfff, vieja tonta
+      <NodeID>k__BackingField: 138f98be-974e-4478-88b7-c4295015b540
+    <GroupID>k__BackingField: 0666e9c6-a3a3-4aa2-8371-ccd91cc36b69
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2217.6, y: 2562.4}
+  - <ID>k__BackingField: 138f98be-974e-4478-88b7-c4295015b540
+    <Name>k__BackingField: Mojojojo3
+    <Text>k__BackingField: "\xA1Se acab\xF3! No te atrevas a tratarme as\xED"
+    <Actor>k__BackingField: Loca
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 0666e9c6-a3a3-4aa2-8371-ccd91cc36b69
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2567.2, y: 2562.4}
+  - <ID>k__BackingField: d0ef8b61-37c0-4e0f-b01e-6d2046a8aa2e
+    <Name>k__BackingField: Mojojojo4
+    <Text>k__BackingField: "Hm, no tomes tanto ni\xF1a"
+    <Actor>k__BackingField: Loca
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 0666e9c6-a3a3-4aa2-8371-ccd91cc36b69
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2217.6, y: 2900}
+  - <ID>k__BackingField: 7af36573-e6e5-440a-a244-f968231d97aa
+    <Name>k__BackingField: Fran10
+    <Text>k__BackingField: Por eso, yo digo que le demos con sus tequilazos
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 5a0ef035-eeab-4f59-81fa-c082a721cde4
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 5058.4, y: 2292.8}
+  - <ID>k__BackingField: 9bec3d3e-3141-46f6-950d-d5cca4fe62dc
+    <Name>k__BackingField: Fran11
+    <Text>k__BackingField: "A lo mejor la rutina de tantos a\xF1os viviendo juntos
+      o casados provoca estas situaciones"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 7af36573-e6e5-440a-a244-f968231d97aa
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 4411.2, y: 2292.8}
+  - <ID>k__BackingField: 5a0ef035-eeab-4f59-81fa-c082a721cde4
+    <Name>k__BackingField: Nico11
+    <Text>k__BackingField: "JAJA este Pancho, pero apa\xF1o"
+    <Actor>k__BackingField: Nico
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 64b007b0-9c72-4e4b-9880-baa4206946f8
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 5453.6, y: 2292.8}
+  - <ID>k__BackingField: 64b007b0-9c72-4e4b-9880-baa4206946f8
+    <Name>k__BackingField: Fran9
+    <Text>k__BackingField: "Ufff, estuvo bueno el cumplea\xF1os"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Con permiso chicos, necesito ir al ba\xF1o"
+      <NodeID>k__BackingField: 54db41f7-6d8f-4386-9efb-7abfbffc8921
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 5796.8, y: 2269.5999}
+  - <ID>k__BackingField: 54db41f7-6d8f-4386-9efb-7abfbffc8921
+    <Name>k__BackingField: Coni9
+    <Text>k__BackingField: Ok, ten cuidado amiga
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 6276.8, y: 1975.2}
+  <OldGroupNames>k__BackingField:
+  - Restobar
+  - Pelea
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: Restobar
+      Value:
+      - Fran1
+      - Nico1
+      - Fran2
+      - Coni1
+      - Coni2
+      - Mesera1
+      - Mesera2
+      - Coni3
+      - Fran3
+      - Nico4
+      - Nico3
+      - Mesera3
+      - Mesera4
+      - Nico5
+      - Fran5
+      - Coni4
+      - Fran6
+      - Nico7
+      - Coni6
+      - Coni5
+      - Nico8
+      - Coni7
+      - Coni8
+      - Fran10
+      - Fran11
+      - Nico11
+      - Fran9
+      - Coni9
+    - Key: Pelea
+      Value:
+      - Mojojojo1
+      - Mojojojo2
+      - Mojojojo3
+      - Mojojojo4

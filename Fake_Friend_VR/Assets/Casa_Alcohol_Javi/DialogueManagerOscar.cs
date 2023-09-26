@@ -31,7 +31,7 @@ namespace DS
         bool irComedor = false;
         static Vector3 darVuelta = new Vector3(4.10f, 0.845f, 12.852f);
         static Vector3 irDerecho = new Vector3(-4.86f, 0.845f, 12.852f);
-        static Vector3 comedor = new Vector3(-4.42f, 0.923f, 14.4569998f);
+        static Vector3 comedor = new Vector3(-4.42f, 0.745f, 14.4569998f);
 
         private Vector3[] goToComedor = { darVuelta, irDerecho, comedor };
         private int posVector = 0;

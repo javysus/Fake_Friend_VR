@@ -36,7 +36,6 @@ public class SillaControlador : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Hola,me sali");
             panelHablar.LeanScale(Vector3.zero, 1f).setEaseInOutExpo();
             //panelHablar.SetActive(false);
         }
