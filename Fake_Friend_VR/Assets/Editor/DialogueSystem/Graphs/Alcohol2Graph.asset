@@ -1,0 +1,276 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: Alcohol2Graph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: Alcohol2
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 727cac7c-c368-492b-ad1a-0e2bed158d67
+    <Name>k__BackingField: DecisionAlcohol
+    <Position>k__BackingField: {x: -97.600006, y: -96.8}
+  - <ID>k__BackingField: 0473a9c2-b8fd-40b5-9a36-11ed56e34d30
+    <Name>k__BackingField: Decisionbebida
+    <Position>k__BackingField: {x: -81.6, y: 373.6}
+  - <ID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <Name>k__BackingField: Comedor
+    <Position>k__BackingField: {x: -834.39996, y: 1220}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: ac762960-1e23-4969-873f-e7328dc02d58
+    <Name>k__BackingField: oscar2
+    <Text>k__BackingField: "Entiendo que sea tu primer a\xF1o de Universidad, pero
+      no puedes terminar en ese estado"
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: cae975e8-43ca-4702-aaf7-a24edbbac0ae
+    <GroupID>k__BackingField: 727cac7c-c368-492b-ad1a-0e2bed158d67
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 571.2, y: -8.799999}
+  - <ID>k__BackingField: cae975e8-43ca-4702-aaf7-a24edbbac0ae
+    <Name>k__BackingField: Oscar3
+    <Text>k__BackingField: "\xBFY vomitaste? Hueles demasiado mal"
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: ...
+      <NodeID>k__BackingField: 35d05b30-24c4-4b03-a048-f375c8fc1201
+    <GroupID>k__BackingField: 727cac7c-c368-492b-ad1a-0e2bed158d67
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1212, y: -31.199999}
+  - <ID>k__BackingField: 35d05b30-24c4-4b03-a048-f375c8fc1201
+    <Name>k__BackingField: Oscar4
+    <Text>k__BackingField: "Ve a ducharte, el almuerzo est\xE1 casi listo. No le
+      contar\xE9 a mam\xE1 sobre c\xF3mo llegaste."
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 727cac7c-c368-492b-ad1a-0e2bed158d67
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1565.6, y: -13.599999}
+  - <ID>k__BackingField: d5d05acc-abb8-414e-8401-d3fc77e437bf
+    <Name>k__BackingField: Oscar1
+    <Text>k__BackingField: "Hola hermana, \xBFc\xF3mo te sientes? Anoche estabas
+      muy ebria, te tuve que ir a buscar\u2026"
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Lo siento hermano, se me pas\xF3 la mano"
+      <NodeID>k__BackingField: ac762960-1e23-4969-873f-e7328dc02d58
+    <GroupID>k__BackingField: 727cac7c-c368-492b-ad1a-0e2bed158d67
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -72.8, y: -37.6}
+  - <ID>k__BackingField: 9d8c16cf-c6ad-4fcc-927a-08802aa33980
+    <Name>k__BackingField: oscar1
+    <Text>k__BackingField: " Hola hermana, \xBFc\xF3mo est\xE1s? Anoche te ve\xEDas
+      medio mal luego de que te fui a buscar\r"
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "S\xED hermano, creo que tome mucho"
+      <NodeID>k__BackingField: f5715636-d297-4c0b-898a-cd781d7b979a
+    - <Text>k__BackingField: Tampoco estaba tan mal jaja
+      <NodeID>k__BackingField: 26b13793-8490-41b8-b148-76affcdb801f
+    <GroupID>k__BackingField: 0473a9c2-b8fd-40b5-9a36-11ed56e34d30
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -56.8, y: 456}
+  - <ID>k__BackingField: f5715636-d297-4c0b-898a-cd781d7b979a
+    <Name>k__BackingField: Oscar2
+    <Text>k__BackingField: "Entiendo que sea tu primer a\xF1o de Universidad y est\xE9s
+      viviendo nuevas experiencias, pero ten m\xE1s autocontrol ya?"
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Lo tendr\xE9 en cuenta"
+      <NodeID>k__BackingField: 8950ca62-952a-4524-986a-9e1988bbdb38
+    <GroupID>k__BackingField: 0473a9c2-b8fd-40b5-9a36-11ed56e34d30
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 548.8, y: 432.80002}
+  - <ID>k__BackingField: 26b13793-8490-41b8-b148-76affcdb801f
+    <Name>k__BackingField: Oscar3
+    <Text>k__BackingField: "Hmmm, no lo s\xE9 Rick, entiendo que sea tu primer a\xF1o
+      de Universidad y est\xE9s viviendo nuevas experiencias, pero ten m\xE1s autocontrol
+      ya?\r"
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Lo tendr\xE9 en cuenta"
+      <NodeID>k__BackingField: 8950ca62-952a-4524-986a-9e1988bbdb38
+    <GroupID>k__BackingField: 0473a9c2-b8fd-40b5-9a36-11ed56e34d30
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 552, y: 768.8}
+  - <ID>k__BackingField: 8950ca62-952a-4524-986a-9e1988bbdb38
+    <Name>k__BackingField: Oscar4
+    <Text>k__BackingField: "El almuerzo estar\xE1 listo para que bajes en un rato"
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 0473a9c2-b8fd-40b5-9a36-11ed56e34d30
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1255.2, y: 552.8}
+  - <ID>k__BackingField: aed49e1b-bd5c-486f-9289-0e8d2aade9ea
+    <Name>k__BackingField: Mama1
+    <Text>k__BackingField: " \xBFA qu\xE9 hora llegaste anoche hija? Me qued\xE9
+      dormida as\xED que no me enter\xE9"
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: ' Me fui como a las 2 de la casa de mi amigo'
+      <NodeID>k__BackingField: afb45847-d10e-45ac-af7a-43a56727546e
+    - <Text>k__BackingField: No tan tarde, mi hermano me fue a buscar
+      <NodeID>k__BackingField: afb45847-d10e-45ac-af7a-43a56727546e
+    <GroupID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -448, y: 1278.3999}
+  - <ID>k__BackingField: afb45847-d10e-45ac-af7a-43a56727546e
+    <Name>k__BackingField: Oscar1
+    <Text>k__BackingField: "\xBFC\xF3mo lo pasaste?"
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Bien, fue bastante entretenido
+      <NodeID>k__BackingField: f9b63424-69bc-433c-9cee-921ea6c4f68d
+    <GroupID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 97.6, y: 1292.7999}
+  - <ID>k__BackingField: aaabee21-25e6-482b-a3f3-18e449c84ff9
+    <Name>k__BackingField: Mama2
+    <Text>k__BackingField: "\xBFTan poco comer\xE1s?"
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Es que me duele un poco el est\xF3mago "
+      <NodeID>k__BackingField: 1d4ee788-3ae2-4f63-9a85-f5c21fe974f1
+    <GroupID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 530.4, y: 1292.7999}
+  - <ID>k__BackingField: 1d4ee788-3ae2-4f63-9a85-f5c21fe974f1
+    <Name>k__BackingField: Mama3
+    <Text>k__BackingField: Ah, de seguro tomaste anoche.
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: d57e5138-10c8-4f2a-958a-21bbc765bb25
+    <GroupID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1012.8, y: 1292.7999}
+  - <ID>k__BackingField: d57e5138-10c8-4f2a-958a-21bbc765bb25
+    <Name>k__BackingField: Oscar
+    <Text>k__BackingField: Jaja, me ha pasado
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 3e0be356-130c-490d-99d1-91e66f325338
+    <GroupID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1317.6, y: 1292.7999}
+  - <ID>k__BackingField: 3e0be356-130c-490d-99d1-91e66f325338
+    <Name>k__BackingField: Mama4
+    <Text>k__BackingField: "Est\xE1 bien divertirse, pero no irse a los extremos."
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: b1ec6b0a-48f9-44d0-9403-a96a32b4fb65
+    <GroupID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1616.8, y: 1292.7999}
+  - <ID>k__BackingField: b1ec6b0a-48f9-44d0-9403-a96a32b4fb65
+    <Name>k__BackingField: Mama5
+    <Text>k__BackingField: "Recuerda que a\xFAn no termina el semestre as\xED que
+      espero que no te desconcentres."
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: cc5d728c-7efa-4219-a292-99ac9fee69e8
+    <GroupID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1992, y: 1293.6}
+  - <ID>k__BackingField: c5daf22b-d7a2-47a3-96bf-a0643d553157
+    <Name>k__BackingField: Mama7
+    <Text>k__BackingField: "Sabes la situaci\xF3n familiar en la que estamos con
+      tu padre y no s\xE9 qu\xE9 ocurrir\xE1 luego del divorcio."
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Lo s\xE9 mam\xE1, me ha ido bien y hoy seguir\xE9 estudiando"
+      <NodeID>k__BackingField: ff4d9835-171a-43b7-89bb-b7378ed5a96d
+    - <Text>k__BackingField: ...
+      <NodeID>k__BackingField: ff4d9835-171a-43b7-89bb-b7378ed5a96d
+    <GroupID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 2083.2, y: 1589.6}
+  - <ID>k__BackingField: ff4d9835-171a-43b7-89bb-b7378ed5a96d
+    <Name>k__BackingField: Mama8
+    <Text>k__BackingField: Hmmm...
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2765.6, y: 1627.2}
+  - <ID>k__BackingField: cc5d728c-7efa-4219-a292-99ac9fee69e8
+    <Name>k__BackingField: Mama6
+    <Text>k__BackingField: "Ya te lo he dicho, pero debes aprobar tus ramos para
+      continuar con cr\xE9dito\u2026"
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: c5daf22b-d7a2-47a3-96bf-a0643d553157
+    <GroupID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1517.6, y: 1613.6}
+  - <ID>k__BackingField: 16b7cd3f-3dcb-4fce-9b80-7343206b3d2c
+    <Name>k__BackingField: Mama0
+    <Text>k__BackingField: Buenas tardes hija, ven a comer.
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: aed49e1b-bd5c-486f-9289-0e8d2aade9ea
+    <GroupID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -809.6, y: 1325.6}
+  - <ID>k__BackingField: f9b63424-69bc-433c-9cee-921ea6c4f68d
+    <Name>k__BackingField: Oscar2
+    <Text>k__BackingField: "Qu\xE9 bueno hermana"
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: aaabee21-25e6-482b-a3f3-18e449c84ff9
+    <GroupID>k__BackingField: 23ced427-7a45-44f9-9d63-65bb83b62148
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 254.4, y: 1638.3999}
+  <OldGroupNames>k__BackingField:
+  - DecisionAlcohol
+  - Decisionbebida
+  - Comedor
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: DecisionAlcohol
+      Value:
+      - oscar2
+      - Oscar3
+      - Oscar4
+      - Oscar1
+    - Key: Decisionbebida
+      Value:
+      - oscar1
+      - Oscar2
+      - Oscar3
+      - Oscar4
+    - Key: Comedor
+      Value:
+      - Mama1
+      - Oscar1
+      - Mama2
+      - Mama3
+      - Oscar
+      - Mama4
+      - Mama5
+      - Mama7
+      - Mama8
+      - Mama6
+      - Mama0
+      - Oscar2

@@ -5,6 +5,8 @@ using UnityStandardAssets.CrossPlatformInput;
 namespace UnityStandardAssets.Vehicles.Car
 {
     [RequireComponent(typeof (CarController))]
+
+
     public class CarUserControl : MonoBehaviour
     {
         private CarController m_Car; // the car controller we want to use
@@ -12,6 +14,8 @@ namespace UnityStandardAssets.Vehicles.Car
         public float maxTurnAngle = 1000;
         public HingeJoint speedLever;
         public float maxSpeedAngle = 35;
+        public float Speed;
+
 
         private void Awake()
         {
@@ -24,7 +28,7 @@ namespace UnityStandardAssets.Vehicles.Car
         {
             // pass the input to the car!
             float h = Mathf.Clamp(steeringWheel.angle/maxTurnAngle,-1,1);
-            float v = Mathf.Clamp(15 / maxSpeedAngle, -1, 1);
+            float v = Mathf.Clamp(Speed / maxSpeedAngle, -1, 1);
             if (Mathf.Abs(v) < 0.1f) v = 0;
 #if !MOBILE_INPUT
             float handbrake = CrossPlatformInputManager.GetAxis("Jump");

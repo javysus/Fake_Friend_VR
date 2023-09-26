@@ -54,6 +54,14 @@ namespace DS
             {
                 FindObjectOfType<DMDiego>().OpenDialogue(dialogue);
             }
+            else if (dialogo == "Oscar")
+            {
+                FindObjectOfType<DialogueManagerOscar>().OpenDialogue(dialogue);
+            }
+            else if (dialogo == "Comedor")
+            {
+                FindObjectOfType<DialogueManagerComedor>().OpenDialogue(dialogue);
+            }
             else
             {
                 FindObjectOfType<DialogueManager>().OpenDialogue(dialogue);

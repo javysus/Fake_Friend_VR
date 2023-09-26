@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
+  m_Name: Mama1
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: Mama1
+  <Text>k__BackingField: " \xBFA qu\xE9 hora llegaste anoche hija? Me qued\xE9 dormida
+    as\xED que no me enter\xE9"
+  <Actor>k__BackingField: Mama
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: ' Me fui como a las 2 de la casa de mi amigo'
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 5836a0d358120f64cabf5cd8be5c6583, type: 2}
+  - <Text>k__BackingField: No tan tarde, mi hermano me fue a buscar
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 5836a0d358120f64cabf5cd8be5c6583, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0

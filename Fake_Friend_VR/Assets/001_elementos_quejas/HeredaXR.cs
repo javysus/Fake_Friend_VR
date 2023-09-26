@@ -22,6 +22,8 @@ public class HeredaXR : ActionBasedContinuousMoveProvider
     public AudioSource DuchaAudio;
     public ParticleSystem VaporDucha;
 
+    //Activar componente de conversa comedor luego de ducharse
+    public GameObject DialogueManagerComedor;
     void Start()
     {
         
@@ -75,13 +77,17 @@ public class HeredaXR : ActionBasedContinuousMoveProvider
         VaporDucha.Play();
 
         Debug.Log("Espera finalizada. Haciendo algo después del tiempo de espera.");
-        animator.Play("despertar");
+
         DuchaAudio.Stop();
         blackScreen.SetActive(false);
         ChangeMoveSpeed(1.8f);
 
         yield return new WaitForSeconds(7.0f);
+        Debug.Log("Espera finalizada. Haciendo algo después del tiempo de espera para terminar el vapor.");
         VaporDucha.Stop();
+        DialogueManagerComedor.SetActive(true);
+
+
 
     }
 
@@ -99,7 +105,7 @@ public class HeredaXR : ActionBasedContinuousMoveProvider
         else if (other.CompareTag("Ducha") && ducharse == false)
         {
             Debug.Log("colision con ducha");
-            panelDucha.SetActive(true);
+            //panelDucha.SetActive(true);
             //StartCoroutine(WaitAndDoSomething());
 
         }
@@ -114,7 +120,7 @@ public class HeredaXR : ActionBasedContinuousMoveProvider
 
         else if (other.CompareTag("Ducha"))
         {
-            panelDucha.SetActive(false);
+            //panelDucha.SetActive(false);
         }
     }
 
@@ -128,5 +134,6 @@ public class HeredaXR : ActionBasedContinuousMoveProvider
     {
         panelDucha.SetActive(false);
         StartCoroutine(TomarDucha());
+        
     }
 }
