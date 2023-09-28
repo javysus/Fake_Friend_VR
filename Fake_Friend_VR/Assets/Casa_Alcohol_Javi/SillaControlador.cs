@@ -11,13 +11,11 @@ public class SillaControlador : MonoBehaviour
     public float size = 0.01f;
     // Start is called before the first frame update
     private void OnTriggerEnter(Collider other)
-    {
-
-        
+    { 
         if (other.CompareTag("Player"))
         {
             //animador.SetTrigger("HablarCollider");
-            panelHablar.LeanScale(new Vector3(size,size,size), 1f);
+            panelHablar.LeanScale(new Vector3(-size,size,size), 1f);
             panelHablar.transform.LookAt(new Vector3(Target.position.x, panelHablar.transform.position.y, Target.position.z));
 
         }

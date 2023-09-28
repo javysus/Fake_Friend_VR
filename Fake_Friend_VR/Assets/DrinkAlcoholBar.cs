@@ -31,6 +31,11 @@ namespace DS
 
         // Start is called before the first frame update
         bool vomito = false;
+
+        bool mareos = false;
+        bool mareos2 = false;
+        bool visionBorrosa = false;
+
         void Start()
         {
             _collider = GetComponent<Collider>();
@@ -105,7 +110,7 @@ namespace DS
 
         void OnTriggerEnter(Collider other)
         {
-            Debug.Log("Test colision entrar " + other);
+            //Debug.Log("Test colision entrar " + other);
             GameObject game = other.gameObject;
             if (other.tag == "Pastilla")
             {
@@ -118,7 +123,7 @@ namespace DS
             //Vaso de agua
             if (other.tag == "Vaso")
             {
-                Debug.Log("Test colisiona con vaso ");
+                //Debug.Log("Test colisiona con vaso ");
                 colisionVaso = true;
                 game.GetComponent<AudioSource>().Play();
             }
@@ -141,7 +146,28 @@ namespace DS
         // Update is called once per frame
         void Update()
         {
+            if (vasos == 1 && !mareos)
+            {
+                //Activar mareos
+                camara_efectos.GetComponent<ShakeableTransform>().enabled = true;
+                camara_efectos.GetComponent<ShakeableTransform>().maximumAngularShake = new Vector3(1f, 1f, 1f);
+                mareos = true;
+            }
+            else if (vasos == 2 && !visionBorrosa)
+            {
+                camara_efectos.GetComponent<Volume>().enabled = true;
+                MotionBlur tmp4;
+                camara_efectos.GetComponent<Volume>().profile.TryGet<MotionBlur>(out tmp4);
+                tmp4.active = true;
 
+                DepthOfField tmp5;
+                camara_efectos.GetComponent<Volume>().profile.TryGet<DepthOfField>(out tmp5);
+                tmp5.active = true;
+
+                camara_efectos.GetComponent<ShakeableTransform>().maximumAngularShake = new Vector3(2f, 2f, 2f);
+
+                visionBorrosa = true;
+            }
         }
     }
 }

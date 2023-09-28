@@ -16,10 +16,13 @@ MonoBehaviour:
   <Groups>k__BackingField:
   - <ID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
     <Name>k__BackingField: Restobar
-    <Position>k__BackingField: {x: 104.80029, y: 98.40002}
+    <Position>k__BackingField: {x: 104.8, y: 97.600006}
   - <ID>k__BackingField: 0666e9c6-a3a3-4aa2-8371-ccd91cc36b69
     <Name>k__BackingField: Pelea
     <Position>k__BackingField: {x: 1770.3999, y: 2503.2}
+  - <ID>k__BackingField: 309a26ca-85ce-48bd-b1ac-312f153b2880
+    <Name>k__BackingField: SalidaDelBar
+    <Position>k__BackingField: {x: 2904.7996, y: 2640.8003}
   <Nodes>k__BackingField:
   - <ID>k__BackingField: 0b69ee0d-217d-4a6f-a388-e9cbc0d56be5
     <Name>k__BackingField: Fran1
@@ -356,9 +359,41 @@ MonoBehaviour:
     <GroupID>k__BackingField: 027f9a3a-f37b-4ba5-9637-c015f79257f3
     <DialogueType>k__BackingField: 0
     <Position>k__BackingField: {x: 6276.8, y: 1975.2}
+  - <ID>k__BackingField: 2e325c59-eed1-41ff-8dac-d0a49fa0de2c
+    <Name>k__BackingField: Francisco
+    <Text>k__BackingField: "\xBFQu\xE9 ocurrio Cami? No pens\xE9 que ser\xEDas tan
+      peleadora"
+    <Actor>k__BackingField: Francisco
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 59c01ef9-1d31-4221-ba31-2d546c9f39a8
+    <GroupID>k__BackingField: 309a26ca-85ce-48bd-b1ac-312f153b2880
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2930.4, y: 2699.2}
+  - <ID>k__BackingField: 59c01ef9-1d31-4221-ba31-2d546c9f39a8
+    <Name>k__BackingField: Barman
+    <Text>k__BackingField: "\xA1Hey! Fuera ustedes, no se permiten peleas"
+    <Actor>k__BackingField: Personal
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: d47a1c93-0b57-4f2a-8026-12e850bc05ef
+    <GroupID>k__BackingField: 309a26ca-85ce-48bd-b1ac-312f153b2880
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3395.2, y: 2699.2}
+  - <ID>k__BackingField: d47a1c93-0b57-4f2a-8026-12e850bc05ef
+    <Name>k__BackingField: Coni
+    <Text>k__BackingField: "\xA1Ven Cami! Vamosnos"
+    <Actor>k__BackingField: Coni
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 309a26ca-85ce-48bd-b1ac-312f153b2880
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 3834.4, y: 2699.2}
   <OldGroupNames>k__BackingField:
   - Restobar
   - Pelea
+  - SalidaDelBar
   <OldUngroupedNodeNames>k__BackingField: []
   <OldGroupedNodeNames>k__BackingField:
     list:
@@ -398,3 +433,8 @@ MonoBehaviour:
       - Mojojojo2
       - Mojojojo3
       - Mojojojo4
+    - Key: SalidaDelBar
+      Value:
+      - Francisco
+      - Barman
+      - Coni

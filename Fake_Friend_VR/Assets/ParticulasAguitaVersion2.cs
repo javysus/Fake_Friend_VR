@@ -36,7 +36,7 @@ namespace DS
 
                 if (FindObjectOfType<DrinkAlcoholBar>().colisionVaso)
                 {
-                    _renderAgua.material.SetFloat("Vector1_a8cc7360c9dd401a876115a77d6c0cd5", (nivel - 0.005f));
+                    _renderAgua.material.SetFloat("Vector1_a8cc7360c9dd401a876115a77d6c0cd5", (nivel - 0.2f));
                 }
 
             }

@@ -66,6 +66,13 @@ namespace DS
             {
                 FindObjectOfType<DialogueManagerRestobar>().OpenDialogue(dialogue);
             }
+            else if (dialogo == "Mojojojo")
+            {
+                FindObjectOfType<DialogueManagerMojojojo>().OpenDialogue(dialogue);
+            } else if (dialogo == "SalidaBar")
+            {
+                FindObjectOfType<SalidaBar>().OpenDialogue(dialogue);
+            }
             else
             {
                 FindObjectOfType<DialogueManager>().OpenDialogue(dialogue);
