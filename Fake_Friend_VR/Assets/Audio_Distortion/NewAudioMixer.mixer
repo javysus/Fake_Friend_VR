@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!245 &-5060059272299820106
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MoreDrugged
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: f53cafcef4d84314ab7187c7eaf76ec7
+  m_FloatValues:
+    85e63901512d4064f9cdcc3429e4588c: 12.774612
+    ad850751ec658924899d1cd415605f4d: 2804
+    989c4212d9499b043ab542bfdd46986d: 952
+  m_TransitionOverrides: {}
 --- !u!244 &-2305687434004343328
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -28,8 +42,9 @@ AudioMixerController:
   m_Snapshots:
   - {fileID: 24500006}
   - {fileID: 8145406183399842726}
+  - {fileID: -5060059272299820106}
   - {fileID: 8227499346463905424}
-  m_StartSnapshot: {fileID: 8145406183399842726}
+  m_StartSnapshot: {fileID: 24500006}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
   m_UpdateMode: 0
@@ -39,7 +54,7 @@ AudioMixerController:
     - 2746c26201d480e43bd146e6a17c2695
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: 8227499346463905424}
+  m_TargetSnapshot: {fileID: 24500006}
 --- !u!243 &24300002
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -56,6 +71,7 @@ AudioMixerGroupController:
   m_Effects:
   - {fileID: 24400004}
   - {fileID: -2305687434004343328}
+  - {fileID: 8155174849093198246}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
@@ -102,6 +118,22 @@ AudioMixerSnapshotController:
     ad850751ec658924899d1cd415605f4d: 2804
     989c4212d9499b043ab542bfdd46986d: 952
   m_TransitionOverrides: {}
+--- !u!244 &8155174849093198246
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: e1d8d73e119e5a14ea953701b4b93eea
+  m_EffectName: Distortion
+  m_MixLevel: 11ee2ebc90b0fe74e922802470f50b8b
+  m_Parameters:
+  - m_ParameterName: Level
+    m_GUID: 0cec91c7276566e4c9c2d676765e9cf6
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!245 &8227499346463905424
 AudioMixerSnapshotController:
   m_ObjectHideFlags: 0
@@ -115,4 +147,5 @@ AudioMixerSnapshotController:
     85e63901512d4064f9cdcc3429e4588c: 20
     ad850751ec658924899d1cd415605f4d: 362
     989c4212d9499b043ab542bfdd46986d: 952
+    0cec91c7276566e4c9c2d676765e9cf6: 0.576
   m_TransitionOverrides: {}
