@@ -8,6 +8,7 @@ public class Vomitar : MonoBehaviour
     public GameObject XRRig;
     static Vector3 posicionVomitar = new Vector3(10.2939997f, 0.949000001f, 18.7240009f);
     public GameObject vomito;
+    public GameObject caminoLuz;
 
     private float TiempoVomito = 0f;
     private bool vomitando = false;
@@ -36,17 +37,21 @@ public class Vomitar : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        XRRig.transform.position = posicionVomitar;
-        XRRig.transform.localRotation = Quaternion.Euler(0, 0, 0);
-        CamiAnimator.SetTrigger("vomitar");
+        if (other.tag == "Player")
+        {
+            caminoLuz.SetActive(false);
+            XRRig.transform.position = posicionVomitar;
+            XRRig.transform.localRotation = Quaternion.Euler(0, 0, 0);
+            CamiAnimator.SetTrigger("vomitar");
 
-        //Activar vomito
-        Debug.Log("DEBUG Comienza a vomitar");
-        vomitando = true;
-        TiempoVomito = Time.time;
-        vomito.GetComponent<ParticleSystem>().Play();
-        vomito.GetComponent<AudioSource>().Play();
+            //Activar vomito
+            Debug.Log("DEBUG Comienza a vomitar");
+            vomitando = true;
+            TiempoVomito = Time.time;
+            vomito.GetComponent<ParticleSystem>().Play();
+            vomito.GetComponent<AudioSource>().Play();
 
-        GetComponent<BoxCollider>().enabled = false;
+            GetComponent<BoxCollider>().enabled = false;
+        }
     }
 }

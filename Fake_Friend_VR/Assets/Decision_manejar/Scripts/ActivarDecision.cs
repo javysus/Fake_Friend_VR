@@ -9,20 +9,12 @@ namespace DS
         public GameObject decision_canvas;
         public GameObject caminoLuz;
 
-        private void OnTriggerEnter(Collider other)
-        {
-            if (other.CompareTag("Player"))
-            {
-                GetComponent<BoxCollider>().enabled = false;
-                decision_canvas.SetActive(true);
-            }
-        }
-
         public void Decidir1()
         {  
             FindObjectOfType<Timer>().Pause = true;
             Debug.Log("Se decidio el de la izquierda");
             caminoLuz.SetActive(true);
+            caminoLuz.GetComponent<Animator>().SetTrigger("Garage");
             decision_canvas.SetActive(false);
         }
         public void Decidir2()
@@ -31,6 +23,10 @@ namespace DS
             FindObjectOfType<Timer>().Pause = true;
             decision_canvas.SetActive(false);
             
+        }
+        private void Start()
+        {
+            decision_canvas.SetActive(true);
         }
     }
 }

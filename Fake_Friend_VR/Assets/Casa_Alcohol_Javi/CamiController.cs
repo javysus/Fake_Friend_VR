@@ -11,6 +11,8 @@ namespace DS
 
         public GameObject toilet;
 
+        public GameObject caminoLuz;
+
         public GameObject OscarControlador;
 
         public DSDialogue dialogo_alcohol;
@@ -60,8 +62,10 @@ namespace DS
                 //Activar el water para ir a vomitar
                 toilet.GetComponent<BoxCollider>().enabled = true;
                 toilet.GetComponent<Vomitar>().enabled = true;
+                caminoLuz.SetActive(true);
 
                 //Activar camino de luz
+                caminoLuz.GetComponent<Animator>().SetTrigger("Toilet");
 
                 //Se termina esta parte de la historia
                 efectosUno = false;
@@ -77,6 +81,10 @@ namespace DS
 
             if (ducharse)
             {
+                caminoLuz.SetActive(true);
+                caminoLuz.GetComponent<Animator>().ResetTrigger("Toilet");
+                caminoLuz.GetComponent<Animator>().SetTrigger("Ducha");
+                Debug.Log("Activo la duchita");
                 //Activar collider de ducha y boton
                 colliderDucha.enabled = true;
                 ducharse = false;

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
+  m_Name: Nico7
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: Nico7
+  <Text>k__BackingField: "Yo estoy por echarme un ramo, as\xED que aqu\xED pasando
+    las penas "
+  <Actor>k__BackingField: Nico
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: ' A mi me ha ido bien, tuve un 80 en Mate 1 '
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 7ade3daa44b7b7743b82faf7dc2c23cb, type: 2}
+  - <Text>k__BackingField: "A mi me ha ido bien, tuve un 90 en Intro a la F\xEDsica"
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 7ade3daa44b7b7743b82faf7dc2c23cb, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 0

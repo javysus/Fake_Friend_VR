@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!245 &-7856455912752092150
+AudioMixerSnapshotController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: MoreDrugged
+  m_AudioMixer: {fileID: 24100000}
+  m_SnapshotID: 9b2d4451aa6af6d439ede733cf5f1c71
+  m_FloatValues:
+    85e63901512d4064f9cdcc3429e4588c: 12.774609
+    ad850751ec658924899d1cd415605f4d: 14129
+    989c4212d9499b043ab542bfdd46986d: 391
+  m_TransitionOverrides: {}
 --- !u!244 &-2305687434004343328
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -27,6 +41,7 @@ AudioMixerController:
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
   - {fileID: 24500006}
+  - {fileID: -7856455912752092150}
   - {fileID: 8145406183399842726}
   - {fileID: 8227499346463905424}
   m_StartSnapshot: {fileID: 24500006}
@@ -39,7 +54,7 @@ AudioMixerController:
     - 2746c26201d480e43bd146e6a17c2695
     name: View
   m_CurrentViewIndex: 0
-  m_TargetSnapshot: {fileID: 24500006}
+  m_TargetSnapshot: {fileID: -7856455912752092150}
 --- !u!243 &24300002
 AudioMixerGroupController:
   m_ObjectHideFlags: 0

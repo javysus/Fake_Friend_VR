@@ -11,10 +11,12 @@ public class Choque : MonoBehaviour
     public AudioSource llanto_mujer;
     public AudioSource car_hit;
     public AudioSource dog_scream;
+    public AudioSource latidos;
     public GameObject panelNegro;
     public GameObject auto;
     public GameObject jugador;
     public GameObject sangre;
+    public GameObject EndGame;
     public Transform perro;
     public Animator cami;
 
@@ -44,8 +46,10 @@ public class Choque : MonoBehaviour
         jugador.transform.rotation = new Quaternion(0, 90, 0, 0);
         auto.GetComponent<CarUserControl>().Speed = 0;
         yield return new WaitForSeconds(3);
-        //llantos_perro.Play();
+        EndGame.SetActive(true);
+        llantos_perro.Play();
         llanto_mujer.Play();
+        latidos.Play();
         auto.transform.position = new Vector3(-0.98f, 1.01f, -11.22f);
         auto.transform.localRotation = Quaternion.Euler(0, 160, 0);
         perro.position = new Vector3(0.74f, 1.06f, -19.45686f);

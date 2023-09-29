@@ -12,14 +12,15 @@ namespace DS
         public GameObject dialogueBoxMama;
         public GameObject silla;
         public MeshCollider sillaCollider;
-
+        public GameObject piezaCollider;
         public GameObject Oscar;
         public GameObject Mama;
         public GameObject Cami;
         public Animator CamiAnimator;
+        public GameObject caminoLuz;
 
         //private Vector3 posicionSentarse = new Vector3(20.5300007f, 1.79900002f, -8.13599968f);
-        private Vector3 posicionSentarse = new Vector3(-2.69799995f, 0.949000001f, 15.457f);
+        private Vector3 posicionSentarse = new Vector3(-2.69799995f, 0.939000001f, 15.457f);
         public bool isActive = false;
 
         //Variables para controlar
@@ -163,7 +164,23 @@ namespace DS
             {
                 Debug.Log("Conversation ended");
                 isActive = false;
-                //Termina esta interaccion, desactivar componente
+                //Termina esta interaccion
+
+                //Parar a Cami
+                Cami.transform.position = new Vector3(-2.53800011f, 0.949000001f, 16.2880001f);
+                CamiAnimator.SetTrigger("idle");
+
+                //Activar collider de silla
+                sillaCollider.enabled = true;
+
+                //Activar collider para pieza
+                piezaCollider.SetActive(true);
+
+                caminoLuz.SetActive(true);
+                caminoLuz.GetComponent<Animator>().ResetTrigger("Ducha");
+                caminoLuz.GetComponent<Animator>().SetTrigger("Habitacion");
+
+                //Desactivar componente
                 this.enabled = false;
 
             }

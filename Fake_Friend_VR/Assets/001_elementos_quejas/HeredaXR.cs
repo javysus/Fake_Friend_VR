@@ -21,6 +21,7 @@ public class HeredaXR : ActionBasedContinuousMoveProvider
     private AudioSource audioSource;
     public AudioSource DuchaAudio;
     public ParticleSystem VaporDucha;
+    public GameObject caminoLuz;
 
     //Activar componente de conversa comedor luego de ducharse
     public GameObject DialogueManagerComedor;
@@ -69,6 +70,7 @@ public class HeredaXR : ActionBasedContinuousMoveProvider
         Debug.Log("Esperando un momento...");
         //frozenPosition = transform.position;
         DuchaAudio.Play();
+        caminoLuz.SetActive(false);
         blackScreen.SetActive(true);
         ChangeMoveSpeed(0.0f); //congelar movimiento
         ducharse = true;

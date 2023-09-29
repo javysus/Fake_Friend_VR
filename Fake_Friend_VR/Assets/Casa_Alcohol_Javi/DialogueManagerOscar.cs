@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+using UnityEngine.AI;
 using UnityEngine.InputSystem;
 namespace DS
 {
@@ -10,6 +10,7 @@ namespace DS
     {
         public GameObject dialogueBoxOscar;
         public GameObject Oscar;
+        public GameObject cami;
         private Animator OscarController;
 
         public GameObject[] options;
@@ -31,7 +32,7 @@ namespace DS
         bool irComedor = false;
         static Vector3 darVuelta = new Vector3(4.10f, 0.845f, 12.852f);
         static Vector3 irDerecho = new Vector3(-4.86f, 0.845f, 12.852f);
-        static Vector3 comedor = new Vector3(-4.42f, 0.923f, 14.4569998f);
+        static Vector3 comedor = new Vector3(-4.6496911f, 0.754020333f, 14.457283f);
 
         private Vector3[] goToComedor = { darVuelta, irDerecho, comedor };
         private int posVector = 0;
@@ -140,7 +141,7 @@ namespace DS
 
                 //Activar ducha para Cami
 
-                FindObjectOfType<CamiController>().ducharse = true;
+                cami.GetComponent<CamiController>().ducharse = true;
                 //this.enabled = false;
 
             }
@@ -211,24 +212,26 @@ namespace DS
         // Update is called once per frame
         void FixedUpdate()
         {
+            if (Oscar.transform.position == comedor)
+            {
+
+                Debug.Log("Ha llegado al comedor");
+                OscarController = Oscar.GetComponent<Animator>();
+                //Oscar.transform.rotation = new Quaternion(0, 90, 0, 0);
+                Oscar.transform.Rotate(0, 90, 0);
+                OscarController.SetTrigger("sentarse");
+
+                //Desactivar componente
+                this.enabled = false;
+
+            }
+
             if (irComedor)
             {
-                if (Oscar.transform.position == comedor)
-                {
-
-                    irComedor = false;
-                    
-                    Debug.Log("Ha llegado al comedor");
-                    OscarController = Oscar.GetComponent<Animator>();
-                    //Oscar.transform.rotation = new Quaternion(0, 90, 0, 0);
-                    Oscar.transform.Rotate(0, 90, 0);
-                    OscarController.SetTrigger("sentarse");
-
-                    //Desactivar componente
-                    this.enabled = false;
-
-                }
-                else if (Oscar.transform.position == goToComedor[posVector])
+                irComedor = false;
+                Oscar.GetComponent<NavMeshAgent>().destination = comedor;
+                
+                /*else if (Oscar.transform.position == goToComedor[posVector])
                 {
                     //Avanzo al siguiente objetivo
                     Debug.Log("Avanzo al siguiente objetivo caminar");
@@ -244,7 +247,7 @@ namespace DS
                 else
                 {
                     caminarComedor(goToComedor[posVector]);
-                }
+                }*/
             }
         }
     }
