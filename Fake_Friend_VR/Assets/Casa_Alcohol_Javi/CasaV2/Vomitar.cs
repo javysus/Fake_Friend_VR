@@ -6,7 +6,7 @@ public class Vomitar : MonoBehaviour
 {
     public Animator CamiAnimator;
     public GameObject XRRig;
-    static Vector3 posicionVomitar = new Vector3(10.2939997f, 0.949000001f, 18.7240009f);
+    public Vector3 posicionVomitar = new Vector3(10.2939997f, 0.949000001f, 18.7240009f);
     public GameObject vomito;
 
     private float TiempoVomito = 0f;

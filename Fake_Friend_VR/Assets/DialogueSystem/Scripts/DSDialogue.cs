@@ -72,6 +72,9 @@ namespace DS
             } else if (dialogo == "SalidaBar")
             {
                 FindObjectOfType<SalidaBar>().OpenDialogue(dialogue);
+            } else if (dialogo == "OscarLargoPlazo")
+            {
+                FindObjectOfType<DialogueManagerOscarLargoPlazo>().OpenDialogue(dialogue);
             }
             else
             {

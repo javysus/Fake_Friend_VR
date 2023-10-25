@@ -15,8 +15,9 @@ public class SillaControlador : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             //animador.SetTrigger("HablarCollider");
+            panelHablar.SetActive(true);
             panelHablar.LeanScale(new Vector3(-size,size,size), 1f);
-            panelHablar.transform.LookAt(new Vector3(Target.position.x, panelHablar.transform.position.y, Target.position.z));
+            panelHablar.transform.LookAt(new Vector3(-Target.position.x, panelHablar.transform.position.y, Target.position.z));
 
         }
     }
@@ -25,7 +26,7 @@ public class SillaControlador : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            panelHablar.transform.LookAt(new Vector3(Target.position.x, panelHablar.transform.position.y, Target.position.z));
+            panelHablar.transform.LookAt(new Vector3(-Target.position.x, panelHablar.transform.position.y, Target.position.z));
 
         }
     }
