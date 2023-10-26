@@ -6,15 +6,13 @@ using UnityEngine.InputSystem;
 namespace DS
 {
     using ScriptableObjects;
-    public class DialogueManagerTraficante : MonoBehaviour
+    public class DialogueManagerMamaCoca : MonoBehaviour
     {
 
         public GameObject dialogueBoxJosefa;
         public GameObject Josefa;
         private Animator JosefaController;
         public GameObject colliderBoton;
-        public GameObject reloj;
-        public GameObject polvito;
 
         public GameObject[] options;
         [Tooltip("Actions to check")]
@@ -70,28 +68,13 @@ namespace DS
 
         }
 
-        IEnumerator VerReloj()
-        {
-            //Activar animacion
-            Josefa.GetComponent<Animator>().SetTrigger("reloj");
-            reloj.SetActive(true);
-
-            //Wait
-            yield return new WaitForSeconds(2f);
-
-            Debug.Log("Listo el reloj dialogo");
-
-            Josefa.GetComponent<Animator>().SetTrigger("chat");
-            DisplayMessage();
-            reloj.SetActive(false);
-        }
-        public void DisplayMessage()
+        void DisplayMessage()
         {
 
             string dialogo = currentDialogue.Text;
             actor = currentDialogue.Actor;
             actor_anterior = actor;
-            if (actor == "Traficante")
+            if (actor == "Mama")
             {
                 GameObject parent = dialogueBoxJosefa;
 
@@ -116,13 +99,6 @@ namespace DS
 
                 currentDialogue = currentDialogue.Choices[0].NextDialogue;
                 Debug.Log("Siguiente dialogo " + currentDialogue);
-
-                if(currentDialogue.DialogueName == "Traficante4")
-                {
-                    StartCoroutine(VerReloj());
-                }
-
-
             }
 
             else
@@ -144,8 +120,6 @@ namespace DS
 
                 GameObject parent = dialogueBoxJosefa;
                 parent.LeanScale(Vector3.zero, 1f).setEaseInOutExpo();
-
-                polvito.SetActive(true);
 
                 this.enabled = false;
             }
@@ -171,7 +145,7 @@ namespace DS
                 optionText.GetComponent<UnityEngine.UI.Text>().text = currentDialogue.Choices[i].Text;
 
                 options[i].SetActive(true);
-                options[i].LeanScale(Vector3.one,1f);
+                options[i].LeanScale(Vector3.one, 1f);
 
             }
         }
@@ -190,18 +164,7 @@ namespace DS
             }
 
             isActive = true;
-
-            if (decision == 0)
-            {
-                //Perdiste
-                Debug.Log("Perdiste ");
-            } 
-            else if (decision == 1)
-            {
-                //Continuas
-                Debug.Log("Continuas");
-            }
-            //DisplayMessage();
+            DisplayMessage();
 
 
         }

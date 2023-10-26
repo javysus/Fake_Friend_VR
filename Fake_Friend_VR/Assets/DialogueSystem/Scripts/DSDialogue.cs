@@ -77,6 +77,14 @@ namespace DS
             {
                 FindObjectOfType<DialogueManagerTraficante>().OpenDialogue(dialogue);
             }
+            else if (dialogo == "MamaCoca")
+            {
+                FindObjectOfType<DialogueManagerMamaCoca>().OpenDialogue(dialogue);
+            }
+            else if (dialogo == "Minijuego")
+            {
+                FindObjectOfType<DialogueManagerTraficanteJuego>().OpenDialogue(dialogue);
+            }
             else
             {
                 FindObjectOfType<DialogueManager>().OpenDialogue(dialogue);

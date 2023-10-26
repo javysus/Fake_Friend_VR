@@ -6,15 +6,12 @@ using UnityEngine.InputSystem;
 namespace DS
 {
     using ScriptableObjects;
-    public class DialogueManagerTraficante : MonoBehaviour
+    public class DialogueManagerTraficanteJuego : MonoBehaviour
     {
 
         public GameObject dialogueBoxJosefa;
         public GameObject Josefa;
         private Animator JosefaController;
-        public GameObject colliderBoton;
-        public GameObject reloj;
-        public GameObject polvito;
 
         public GameObject[] options;
         [Tooltip("Actions to check")]
@@ -23,10 +20,14 @@ namespace DS
         private string actor;
         int decisiones;
         public bool isActive = false;
-        public GameObject hablar;
         string actor_anterior;
 
+        public GameObject droga;
+        public movimiento_control hereda;
         DSDialogueSO currentDialogue;
+
+        public MiniJuegoAbstinencia juego;
+ 
         private void Awake()
         {
             action.started += Pressed;
@@ -59,7 +60,7 @@ namespace DS
         public void OpenDialogue(DSDialogueSO dialogue)
         {
 
-            hablar.SetActive(false);
+            //hablar.SetActive(false);
 
 
             currentDialogue = dialogue;
@@ -70,21 +71,7 @@ namespace DS
 
         }
 
-        IEnumerator VerReloj()
-        {
-            //Activar animacion
-            Josefa.GetComponent<Animator>().SetTrigger("reloj");
-            reloj.SetActive(true);
 
-            //Wait
-            yield return new WaitForSeconds(2f);
-
-            Debug.Log("Listo el reloj dialogo");
-
-            Josefa.GetComponent<Animator>().SetTrigger("chat");
-            DisplayMessage();
-            reloj.SetActive(false);
-        }
         public void DisplayMessage()
         {
 
@@ -98,7 +85,7 @@ namespace DS
                 GameObject actorName = parent.transform.Find("Actor").gameObject;
                 GameObject messageText = parent.transform.Find("Message").gameObject;
                 GameObject backgroundBox = parent;
-                backgroundBox.LeanScale(Vector3.one, 0.5f);
+                backgroundBox.LeanScale(Vector3.one, 1f);
 
                 messageText.GetComponent<UnityEngine.UI.Text>().text = dialogo;
                 //Actor actorToDisplay = currentActors[messageToDisplay.actorId];
@@ -117,11 +104,6 @@ namespace DS
                 currentDialogue = currentDialogue.Choices[0].NextDialogue;
                 Debug.Log("Siguiente dialogo " + currentDialogue);
 
-                if(currentDialogue.DialogueName == "Traficante4")
-                {
-                    StartCoroutine(VerReloj());
-                }
-
 
             }
 
@@ -139,13 +121,11 @@ namespace DS
             if (currentDialogue == null)
             {
                 Debug.Log("Conversation ended");
-                colliderBoton.SetActive(false);
                 Josefa.GetComponent<Animator>().SetTrigger("idle");
 
                 GameObject parent = dialogueBoxJosefa;
                 parent.LeanScale(Vector3.zero, 1f).setEaseInOutExpo();
 
-                polvito.SetActive(true);
 
                 this.enabled = false;
             }
@@ -171,7 +151,7 @@ namespace DS
                 optionText.GetComponent<UnityEngine.UI.Text>().text = currentDialogue.Choices[i].Text;
 
                 options[i].SetActive(true);
-                options[i].LeanScale(Vector3.one,1f);
+                options[i].LeanScale(Vector3.one, 1f);
 
             }
         }
@@ -180,6 +160,9 @@ namespace DS
         {
 
             Debug.Log("A decidir");
+
+            
+
             currentDialogue = currentDialogue.Choices[decision].NextDialogue;
             Debug.Log("Decision " + currentDialogue);
             //Esconder decisiones
@@ -189,20 +172,34 @@ namespace DS
                 options[i].LeanScale(Vector3.zero, 0.5f).setEaseInOutExpo();
             }
 
-            isActive = true;
-
             if (decision == 0)
             {
-                //Perdiste
-                Debug.Log("Perdiste ");
-            } 
+                isActive = true;
+                DisplayMessage();
+                //Aparecer droga para inhalar
+                Debug.Log("Aparecer droga");
+                droga.SetActive(true);
+            }
             else if (decision == 1)
             {
-                //Continuas
-                Debug.Log("Continuas");
-            }
-            //DisplayMessage();
+                GameObject parent = dialogueBoxJosefa;
+                parent.LeanScale(Vector3.zero, 1f).setEaseInOutExpo();
+                //Activar movimiento
+                hereda.moveSpeed = 1.8f;
 
+                //Reiniciar llegada de traficante
+                Josefa.GetComponent<TraficanteMiniJuego>().inTrigger = false;
+                Josefa.GetComponent<TraficanteMiniJuego>().llegada = false;
+
+                //Ganar
+                if(juego.GetNumCollider() == 3)
+                {
+                    //Gano el juego
+                    DisplayMessage();
+                    Josefa.GetComponent<TraficanteMiniJuego>().enabled = false;
+                    juego.enabled = false;
+                }
+            }
 
         }
         // Start is called before the first frame update

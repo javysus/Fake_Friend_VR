@@ -1,0 +1,151 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: CocaMiniJuegoGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: CocaMiniJuego
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: a6f5ea89-d376-4423-b5a9-99eaa7fe0fe6
+    <Name>k__BackingField: Mama
+    <Position>k__BackingField: {x: 45.600002, y: 130.40001}
+  - <ID>k__BackingField: 3449529b-6fa0-4436-9be3-710a4e8f69c5
+    <Name>k__BackingField: Minijuego
+    <Position>k__BackingField: {x: 99.20003, y: 542.39996}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 915d07ed-1da7-4e64-b634-10996f782d4f
+    <Name>k__BackingField: Mama1
+    <Text>k__BackingField: "\xBFYa te vas hijito?"
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "S\xED mama, salgo con mis amigos"
+      <NodeID>k__BackingField: 01c0e3d2-0e03-4fe9-9f2e-03802d15adde
+    <GroupID>k__BackingField: a6f5ea89-d376-4423-b5a9-99eaa7fe0fe6
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 70.4, y: 188.8}
+  - <ID>k__BackingField: 01c0e3d2-0e03-4fe9-9f2e-03802d15adde
+    <Name>k__BackingField: Mama2
+    <Text>k__BackingField: Ok... esta es tu primera salida luego de lo ocurrido
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "S\xED..."
+      <NodeID>k__BackingField: 701a01db-75b4-41eb-94c9-75c52a3ada5f
+    <GroupID>k__BackingField: a6f5ea89-d376-4423-b5a9-99eaa7fe0fe6
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 503.2, y: 188.8}
+  - <ID>k__BackingField: 701a01db-75b4-41eb-94c9-75c52a3ada5f
+    <Name>k__BackingField: Mama3
+    <Text>k__BackingField: Promete que te cuidaras hijo, por favor.
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Lo har\xE9 mam\xE1"
+      <NodeID>k__BackingField: 4905db72-6da1-4e4a-a378-3407026af5f0
+    <GroupID>k__BackingField: a6f5ea89-d376-4423-b5a9-99eaa7fe0fe6
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 892, y: 188.8}
+  - <ID>k__BackingField: 4905db72-6da1-4e4a-a378-3407026af5f0
+    <Name>k__BackingField: Mama4
+    <Text>k__BackingField: "Te dar\xE9 dinero para que te compres lo que necesites"
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Gracias mam\xE1, nos vemos"
+      <NodeID>k__BackingField: 530cd7e4-cf19-45cc-9163-139bdab2356e
+    <GroupID>k__BackingField: a6f5ea89-d376-4423-b5a9-99eaa7fe0fe6
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1224, y: 188.8}
+  - <ID>k__BackingField: 530cd7e4-cf19-45cc-9163-139bdab2356e
+    <Name>k__BackingField: Mama5
+    <Text>k__BackingField: Adios hijito, te amo
+    <Actor>k__BackingField: Mama
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: a6f5ea89-d376-4423-b5a9-99eaa7fe0fe6
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1624, y: 204}
+  - <ID>k__BackingField: c96f2dc6-ca49-4b5f-8e1d-e1cb14259a21
+    <Name>k__BackingField: Traficantejuego1
+    <Text>k__BackingField: "\xBFComienzan los efectos, no? Te ayudo con coca por
+      10 lucas"
+    <Actor>k__BackingField: Traficante
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "S\xED... lo necesito"
+      <NodeID>k__BackingField: bee120a7-da6b-42d9-91e1-ade48e62df1c
+    - <Text>k__BackingField: No, dejame tranquilo
+      <NodeID>k__BackingField: b069a179-32fc-47e9-8dff-cb3a0cd98994
+    <GroupID>k__BackingField: 3449529b-6fa0-4436-9be3-710a4e8f69c5
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 124, y: 630.4}
+  - <ID>k__BackingField: b069a179-32fc-47e9-8dff-cb3a0cd98994
+    <Name>k__BackingField: Traficantejuego2
+    <Text>k__BackingField: Te veo mal cabro... De verdad, coca por 8 luquitas
+    <Actor>k__BackingField: Traficante
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "S\xED... lo necesito"
+      <NodeID>k__BackingField: bee120a7-da6b-42d9-91e1-ade48e62df1c
+    - <Text>k__BackingField: No, dejame tranquilo
+      <NodeID>k__BackingField: 6d8e9c44-903a-48b7-80d7-9f7b36bd9a5c
+    <GroupID>k__BackingField: 3449529b-6fa0-4436-9be3-710a4e8f69c5
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 608, y: 919.2}
+  - <ID>k__BackingField: bee120a7-da6b-42d9-91e1-ade48e62df1c
+    <Name>k__BackingField: Traficante2
+    <Text>k__BackingField: "Ufff, lo imagine. Aqu\xED tienes."
+    <Actor>k__BackingField: Traficante
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 3449529b-6fa0-4436-9be3-710a4e8f69c5
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 683.2, y: 600.8}
+  - <ID>k__BackingField: 6d8e9c44-903a-48b7-80d7-9f7b36bd9a5c
+    <Name>k__BackingField: Traficantejuego3
+    <Text>k__BackingField: "Amigo, tus efectos tambi\xE9n son peligrosos. Dame 5
+      lucas y te doy coca."
+    <Actor>k__BackingField: Traficante
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "S\xED... lo necesito"
+      <NodeID>k__BackingField: bee120a7-da6b-42d9-91e1-ade48e62df1c
+    - <Text>k__BackingField: No, dejame tranquilo
+      <NodeID>k__BackingField: 019cb904-eaa9-4e93-bee0-28dec0f91718
+    <GroupID>k__BackingField: 3449529b-6fa0-4436-9be3-710a4e8f69c5
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1044.8, y: 928.8}
+  - <ID>k__BackingField: 019cb904-eaa9-4e93-bee0-28dec0f91718
+    <Name>k__BackingField: Traficante3
+    <Text>k__BackingField: Ok. Chao.
+    <Actor>k__BackingField: Traficante
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 3449529b-6fa0-4436-9be3-710a4e8f69c5
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1572.8, y: 951.2}
+  <OldGroupNames>k__BackingField:
+  - Mama
+  - Minijuego
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: Mama
+      Value:
+      - Mama1
+      - Mama2
+      - Mama3
+      - Mama4
+      - Mama5
+    - Key: Minijuego
+      Value:
+      - Traficantejuego1
+      - Traficantejuego2
+      - Traficante2
+      - Traficantejuego3
+      - Traficante3

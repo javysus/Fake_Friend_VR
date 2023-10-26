@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f262818b55b0f4418296bad0176bdab, type: 3}
+  m_Name: Traficantejuego1
+  m_EditorClassIdentifier: 
+  <DialogueName>k__BackingField: Traficantejuego1
+  <Text>k__BackingField: "\xBFComienzan los efectos, no? Te ayudo con coca por 10
+    lucas"
+  <Actor>k__BackingField: Traficante
+  <Choices>k__BackingField:
+  - <Text>k__BackingField: "S\xED... lo necesito"
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 756fc8a8712d9654899a156d580215ce, type: 2}
+  - <Text>k__BackingField: No, dejame tranquilo
+    <NextDialogue>k__BackingField: {fileID: 11400000, guid: 725e0e65016b89e4e8a4fb81b848953d, type: 2}
+  <DialogueType>k__BackingField: 1
+  <IsStartingDialogue>k__BackingField: 1
