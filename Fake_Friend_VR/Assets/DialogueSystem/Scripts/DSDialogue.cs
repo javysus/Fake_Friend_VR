@@ -73,6 +73,15 @@ namespace DS
             {
                 FindObjectOfType<SalidaBar>().OpenDialogue(dialogue);
             }
+            else if (dialogo == "MauroMC")
+            {
+                FindObjectOfType<DialogueManagerMauroMC>().OpenDialogue(dialogue);
+            }
+            else if (dialogo == "MauroMC2")
+            {
+                //Crear el nuevo dialogue manager
+                FindObjectOfType<DialogueManagerMauroMC2>().OpenDialogue(dialogue);
+            }
             else
             {
                 FindObjectOfType<DialogueManager>().OpenDialogue(dialogue);

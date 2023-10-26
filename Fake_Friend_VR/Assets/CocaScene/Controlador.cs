@@ -19,8 +19,8 @@ public class MapTransform1
 public class Controlador : MonoBehaviour
 {
     [SerializeField] private MapTransform1 head;
-    [SerializeField] private MapTransform1 leftHand;
-    [SerializeField] private MapTransform1 rightHand;
+    [SerializeField] public MapTransform1 leftHand;
+    [SerializeField] public MapTransform1 rightHand;
 
     [SerializeField] private float turnSmoothness;
 
