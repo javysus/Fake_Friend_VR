@@ -73,6 +73,10 @@ namespace DS
             {
                 FindObjectOfType<SalidaBar>().OpenDialogue(dialogue);
             }
+            else if (dialogo == "Traficante")
+            {
+                FindObjectOfType<DialogueManagerTraficante>().OpenDialogue(dialogue);
+            }
             else
             {
                 FindObjectOfType<DialogueManager>().OpenDialogue(dialogue);
