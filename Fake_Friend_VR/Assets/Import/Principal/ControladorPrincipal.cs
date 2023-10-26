@@ -29,6 +29,7 @@ public class ControladorPrincipal : MonoBehaviour
     void LateUpdate()
     {
         transform.position = IKHead.position + headBodyOffset;
+
         transform.forward = Vector3.Lerp(transform.forward, Vector3.ProjectOnPlane(IKHead.forward, Vector3.up).normalized, Time.deltaTime * turnSmoothness); ;
         head.MapVRAvatar();
         leftHand.MapVRAvatar();

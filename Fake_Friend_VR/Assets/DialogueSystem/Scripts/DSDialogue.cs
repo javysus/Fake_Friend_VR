@@ -69,9 +69,14 @@ namespace DS
             else if (dialogo == "Mojojojo")
             {
                 FindObjectOfType<DialogueManagerMojojojo>().OpenDialogue(dialogue);
-            } else if (dialogo == "SalidaBar")
+            } 
+            else if (dialogo == "SalidaBar")
             {
                 FindObjectOfType<SalidaBar>().OpenDialogue(dialogue);
+            }
+            else if (dialogo == "medico")
+            {
+                FindObjectOfType<DialogueManagerDoctor>().OpenDialogue(dialogue);
             }
             else
             {

@@ -1,4 +1,5 @@
 using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -23,6 +24,8 @@ public class LevelLoader : MonoBehaviour
     }
     public void LoadNextLevel()
     {
+        Console.WriteLine("Current Date and time is : " + SceneManager.GetActiveScene().buildIndex);
+
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
 
@@ -33,7 +36,6 @@ public class LevelLoader : MonoBehaviour
 
         //Wait
         yield return new WaitForSeconds(transitionTime*2);
-
         //Load scene
         SceneManager.LoadScene(levelIndex);
     }
