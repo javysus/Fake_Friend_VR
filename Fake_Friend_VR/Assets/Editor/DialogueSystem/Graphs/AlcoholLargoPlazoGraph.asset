@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: AlcoholLargoPlazoGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: AlcoholLargoPlazo
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: d2985a0f-9f52-4d37-9535-2caf22cde5a0
+    <Name>k__BackingField: PedirAyuda
+    <Position>k__BackingField: {x: 168.8, y: 164}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 14a15ad8-c555-4dfc-b621-615bbfd365e9
+    <Name>k__BackingField: Oscar1
+    <Text>k__BackingField: "\xBFEst\xE1s bien hermana?"
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: No... necesito tu ayuda
+      <NodeID>k__BackingField: 9cd7f9ef-615b-414e-bfb1-c7185e825fc5
+    <GroupID>k__BackingField: d2985a0f-9f52-4d37-9535-2caf22cde5a0
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 193.6, y: 222.4}
+  - <ID>k__BackingField: 9cd7f9ef-615b-414e-bfb1-c7185e825fc5
+    <Name>k__BackingField: Oscar2
+    <Text>k__BackingField: Tranquila hermanita, estoy contigo
+    <Actor>k__BackingField: Oscar
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: d2985a0f-9f52-4d37-9535-2caf22cde5a0
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 595.2, y: 234.4}
+  <OldGroupNames>k__BackingField:
+  - PedirAyuda
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: PedirAyuda
+      Value:
+      - Oscar1
+      - Oscar2

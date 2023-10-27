@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: MultiplesConsumosGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: MultiplesConsumos
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 7af124d8-7b6e-47d2-8348-d7f9443ce7fa
+    <Name>k__BackingField: His1
+    <Position>k__BackingField: {x: -109.600006, y: 135.2}
+  - <ID>k__BackingField: d978a41f-57d7-4ddf-9447-661409df9c28
+    <Name>k__BackingField: His2
+    <Position>k__BackingField: {x: 18.399963, y: 635.2001}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 67e98089-9dfe-4ef9-b0b0-5e24c82cf3db
+    <Name>k__BackingField: Mau1
+    <Text>k__BackingField: " Nico mira lo que tengo aqu\xED.\r"
+    <Actor>k__BackingField: Mauro
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: ' Uhh se ve fresca'
+      <NodeID>k__BackingField: 2f2f3db1-f942-4ea9-a915-33297408e5fc
+    <GroupID>k__BackingField: 7af124d8-7b6e-47d2-8348-d7f9443ce7fa
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: -84.8, y: 192.8}
+  - <ID>k__BackingField: 2f2f3db1-f942-4ea9-a915-33297408e5fc
+    <Name>k__BackingField: Mau2
+    <Text>k__BackingField: "\xBFQuieres? es de la buena\r"
+    <Actor>k__BackingField: Mauro
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: c025258a-7f06-4294-9b0d-564edea76f64
+    <GroupID>k__BackingField: 7af124d8-7b6e-47d2-8348-d7f9443ce7fa
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 359.2, y: 202.40001}
+  - <ID>k__BackingField: c025258a-7f06-4294-9b0d-564edea76f64
+    <Name>k__BackingField: Mau3
+    <Text>k__BackingField: "\xBFTe gusta? \xBFC\xF3mo te sent\xED?"
+    <Actor>k__BackingField: Mauro
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: "Bac\xE1n, pero la primera vez fue mejor."
+      <NodeID>k__BackingField: 3364f89b-ab73-46fa-8ede-37e90acb220e
+    - <Text>k__BackingField: "Bac\xE1n, fue mejor esta vez."
+      <NodeID>k__BackingField: 3364f89b-ab73-46fa-8ede-37e90acb220e
+    <GroupID>k__BackingField: 7af124d8-7b6e-47d2-8348-d7f9443ce7fa
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 693.60004, y: 200}
+  - <ID>k__BackingField: 3364f89b-ab73-46fa-8ede-37e90acb220e
+    <Name>k__BackingField: Mau4
+    <Text>k__BackingField: Veamos que tan bien te hizo la inhalada. Trata de seguirme...
+    <Actor>k__BackingField: Mauro
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 7af124d8-7b6e-47d2-8348-d7f9443ce7fa
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1248.7999, y: 229.6}
+  - <ID>k__BackingField: 407e4c62-7b90-4023-b002-ae61370d8f9b
+    <Name>k__BackingField: Mau5
+    <Text>k__BackingField: " Est\xE1s muy lento, \xA1inhala otra l\xEDnea para hacerlo
+      mejor!\r"
+    <Actor>k__BackingField: Mauro
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: ccd93cda-14ad-4b9c-a30e-49eae0ee8e72
+    <GroupID>k__BackingField: d978a41f-57d7-4ddf-9447-661409df9c28
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 44, y: 692.8}
+  - <ID>k__BackingField: ccd93cda-14ad-4b9c-a30e-49eae0ee8e72
+    <Name>k__BackingField: Mau7
+    <Text>k__BackingField: "\xBFNecesitas m\xE1s? Te sentir\xE1s mejor."
+    <Actor>k__BackingField: Mauro
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: " Creo que necesito un poco m\xE1s."
+      <NodeID>k__BackingField: 1629496f-ffbc-4af0-8e96-a7118f1692e9
+    <GroupID>k__BackingField: d978a41f-57d7-4ddf-9447-661409df9c28
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 557.60004, y: 860}
+  - <ID>k__BackingField: d644af98-216d-445e-a7e6-7aa2a6a27379
+    <Name>k__BackingField: Mau6
+    <Text>k__BackingField: "Wena, inhalemos otra l\xEDnea como premio."
+    <Actor>k__BackingField: Mauro
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: ccd93cda-14ad-4b9c-a30e-49eae0ee8e72
+    <GroupID>k__BackingField: d978a41f-57d7-4ddf-9447-661409df9c28
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 89.6, y: 1033.6001}
+  - <ID>k__BackingField: 1629496f-ffbc-4af0-8e96-a7118f1692e9
+    <Name>k__BackingField: Mau8
+    <Text>k__BackingField: "No tengo m\xE1s coca\xEDna. Tendr\xE1s que comprar, te
+      dej\xE9 el contacto del proveedor en el escritorio..."
+    <Actor>k__BackingField: Mauro
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: d978a41f-57d7-4ddf-9447-661409df9c28
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1151.2, y: 883.2}
+  <OldGroupNames>k__BackingField:
+  - His1
+  - His2
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: His1
+      Value:
+      - Mau1
+      - Mau2
+      - Mau3
+      - Mau4
+    - Key: His2
+      Value:
+      - Mau5
+      - Mau7
+      - Mau6
+      - Mau8

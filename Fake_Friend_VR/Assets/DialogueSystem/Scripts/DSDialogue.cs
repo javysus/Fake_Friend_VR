@@ -73,6 +73,44 @@ namespace DS
             {
                 FindObjectOfType<SalidaBar>().OpenDialogue(dialogue);
             }
+            else if (dialogo == "Hermano")
+            {
+                FindObjectOfType<DialogueManagerHermano>().OpenDialogue(dialogue);
+            }
+            else if (dialogo == "Mama")
+            {
+                FindObjectOfType<DialogueManagerMama>().OpenDialogue(dialogue);
+            }
+            else if (dialogo == "medico")
+            {
+                FindObjectOfType<DialogueManagerDoctor>().OpenDialogue(dialogue);
+            }
+            else if (dialogo == "OscarLargoPlazo")
+            {
+                FindObjectOfType<DialogueManagerOscarLargoPlazo>().OpenDialogue(dialogue);
+            }
+            else if (dialogo == "Traficante")
+            {
+                FindObjectOfType<DialogueManagerTraficante>().OpenDialogue(dialogue);
+            }
+            else if (dialogo == "MauroMC")
+            {
+                FindObjectOfType<DialogueManagerMauroMC>().OpenDialogue(dialogue);
+            }
+            else if (dialogo == "MauroMC2")
+            {
+                //Crear el nuevo dialogue manager
+                FindObjectOfType<DialogueManagerMauroMC2>().OpenDialogue(dialogue);
+            }
+            else if (dialogo == "MamaCoca")
+            {
+                FindObjectOfType<DialogueManagerMamaCoca>().OpenDialogue(dialogue);
+            }
+            else if (dialogo == "Minijuego")
+            {
+                FindObjectOfType<DialogueManagerTraficanteJuego>().OpenDialogue(dialogue);
+            }
+
             else
             {
                 FindObjectOfType<DialogueManager>().OpenDialogue(dialogue);

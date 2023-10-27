@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: dialogointestinosGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: dialogointestinos
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: f23b890c-4216-480e-ba4d-a46af3741bf1
+    <Name>k__BackingField: Dialogo
+    <Position>k__BackingField: {x: -62.400024, y: -56}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: d28e8861-d849-4875-90ab-46b192e8399d
+    <Name>k__BackingField: d1
+    <Text>k__BackingField: "Hola Nicol\xE1s, \xBFc\xF3mo te encuentras?"
+    <Actor>k__BackingField: "m\xE9dico"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 936557c5-8fc5-40e1-8ca1-81b893310701
+    <GroupID>k__BackingField: f23b890c-4216-480e-ba4d-a46af3741bf1
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: -36.8, y: 14.400002}
+  - <ID>k__BackingField: 936557c5-8fc5-40e1-8ca1-81b893310701
+    <Name>k__BackingField: d2
+    <Text>k__BackingField: "Te dejo en claro de inmediato que\ntu situaci\xF3n de
+      salud no es buena"
+    <Actor>k__BackingField: "m\xE9dico"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 542308a3-a2af-4b9f-b014-19a4bd9549a6
+    <GroupID>k__BackingField: f23b890c-4216-480e-ba4d-a46af3741bf1
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 341.6, y: 10.400002}
+  - <ID>k__BackingField: 542308a3-a2af-4b9f-b014-19a4bd9549a6
+    <Name>k__BackingField: d3
+    <Text>k__BackingField: "Tienes da\xF1os considerables en tu intestino\ngrueso."
+    <Actor>k__BackingField: "m\xE9dico"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 8187b822-385a-47be-bcba-11ecdcea82e2
+    <GroupID>k__BackingField: f23b890c-4216-480e-ba4d-a46af3741bf1
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 722.4, y: 3.2000008}
+  - <ID>k__BackingField: 8187b822-385a-47be-bcba-11ecdcea82e2
+    <Name>k__BackingField: d4
+    <Text>k__BackingField: "Pero no te alarmes, ya que esta afecci\xF3n \nposee tratamiento."
+    <Actor>k__BackingField: "m\xE9dico"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 403c7283-9ef5-4229-b385-fd1e152dc7bf
+    <GroupID>k__BackingField: f23b890c-4216-480e-ba4d-a46af3741bf1
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1148.8, y: 10.400002}
+  - <ID>k__BackingField: 403c7283-9ef5-4229-b385-fd1e152dc7bf
+    <Name>k__BackingField: d5
+    <Text>k__BackingField: "Lo que no es tratable lamentablemente, es que debido
+      al \ninfarto que tuviste, perdiste la sensibilidad y la movilidad en \nel brazo
+      izquierdo... De verdad lo siento."
+    <Actor>k__BackingField: "m\xE9dico"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: b86be24a-f648-4dc6-a6de-844fdd2b28dd
+    <GroupID>k__BackingField: f23b890c-4216-480e-ba4d-a46af3741bf1
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1560.8, y: 10.400002}
+  - <ID>k__BackingField: b86be24a-f648-4dc6-a6de-844fdd2b28dd
+    <Name>k__BackingField: d6
+    <Text>k__BackingField: "Veamos como evolucionas en estos dos d\xEDas\nsiguientes
+      y si mejoras, podemos evaluar darte el alta."
+    <Actor>k__BackingField: "m\xE9dico"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: f23b890c-4216-480e-ba4d-a46af3741bf1
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 2086.4, y: 10.400002}
+  <OldGroupNames>k__BackingField:
+  - Dialogo
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: Dialogo
+      Value:
+      - d1
+      - d2
+      - d3
+      - d4
+      - d5
+      - d6

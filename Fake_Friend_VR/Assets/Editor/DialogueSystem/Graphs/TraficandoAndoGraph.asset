@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: TraficandoAndoGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: TraficandoAndo
+  <Groups>k__BackingField:
+  - <ID>k__BackingField: 400b1a12-bb9d-4b72-be7f-599b28b26d90
+    <Name>k__BackingField: TraficandoAndo
+    <Position>k__BackingField: {x: 28.799988, y: 95.19997}
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 32c6ad25-806a-420a-87df-352f38caa8ac
+    <Name>k__BackingField: Traficante1
+    <Text>k__BackingField: "\xBFQu\xE9 pasa?"
+    <Actor>k__BackingField: Traficante
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: 'Hola... me dieron tu contacto, el Mauro '
+      <NodeID>k__BackingField: c0a7e681-668e-4888-ae44-553e9eac672f
+    <GroupID>k__BackingField: 400b1a12-bb9d-4b72-be7f-599b28b26d90
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 54.4, y: 154.4}
+  - <ID>k__BackingField: c0a7e681-668e-4888-ae44-553e9eac672f
+    <Name>k__BackingField: Traficante2
+    <Text>k__BackingField: "Ah wena, el Mauro, \xBFqu\xE9 quer\xED? \xBFTenis plata?"
+    <Actor>k__BackingField: Traficante
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Necesito coca, dame todo lo que puedas por este reloj
+      <NodeID>k__BackingField: 247842a2-aa24-4e9e-9e41-48f340ee0acc
+    <GroupID>k__BackingField: 400b1a12-bb9d-4b72-be7f-599b28b26d90
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 544, y: 154.4}
+  - <ID>k__BackingField: 247842a2-aa24-4e9e-9e41-48f340ee0acc
+    <Name>k__BackingField: Traficante3
+    <Text>k__BackingField: Dejame verlo...
+    <Actor>k__BackingField: Traficante
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 3302f1ad-d7fe-4165-8be1-a94e76650fdb
+    <GroupID>k__BackingField: 400b1a12-bb9d-4b72-be7f-599b28b26d90
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1139.2, y: 178.4}
+  - <ID>k__BackingField: 3302f1ad-d7fe-4165-8be1-a94e76650fdb
+    <Name>k__BackingField: Traficante4
+    <Text>k__BackingField: "Ok, aqu\xED tienes"
+    <Actor>k__BackingField: Traficante
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Gracias, me salvaste
+      <NodeID>k__BackingField: 271b34bd-5cf7-4a94-aa7a-66745fc7c04c
+    <GroupID>k__BackingField: 400b1a12-bb9d-4b72-be7f-599b28b26d90
+    <DialogueType>k__BackingField: 1
+    <Position>k__BackingField: {x: 1444.8, y: 154.4}
+  - <ID>k__BackingField: 271b34bd-5cf7-4a94-aa7a-66745fc7c04c
+    <Name>k__BackingField: Traficante5
+    <Text>k__BackingField: "S\xED s\xED, ya vete"
+    <Actor>k__BackingField: Traficante
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 400b1a12-bb9d-4b72-be7f-599b28b26d90
+    <DialogueType>k__BackingField: 0
+    <Position>k__BackingField: {x: 1817.6, y: 163.2}
+  <OldGroupNames>k__BackingField:
+  - TraficandoAndo
+  <OldUngroupedNodeNames>k__BackingField: []
+  <OldGroupedNodeNames>k__BackingField:
+    list:
+    - Key: TraficandoAndo
+      Value:
+      - Traficante1
+      - Traficante2
+      - Traficante3
+      - Traficante4
+      - Traficante5
